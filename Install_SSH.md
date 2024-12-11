@@ -19,7 +19,7 @@ ssh user@machine_ip
 
 Pour éviter de taper le mot de passe à chaque fois, configure une authentification par clé SSH :
 
-ssh-keygen -t rsa
+ssh-keygen -t rsa<br>
 ssh-copy-id user@machine_ip
 
 ![image (1)](https://github.com/user-attachments/assets/6be3dd73-d292-4d88-a93e-73fbbd758e02)
