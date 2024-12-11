@@ -4,8 +4,8 @@
 
 2) On choisit le menu du script
      Qui voulez vous cilbler ?
-       - utilisateur
-       - ordinateur
+       a) utilisateur
+       b) ordinateur
 
 a) Utilisateur
     - Entrez votre nom (partiel ou complet)
@@ -17,4 +17,22 @@ a.1) Proposer une liste d'action :
     - ajouter un utilisateur
     - supprimer un utilisateur
     - modifier les droits d'un utilisateur
-    - 
+    - etc.
+
+a.2) Pour chaque action, message de réussite et enrigstrer les logs avec des "echo >> fichier_log"
+
+b) ordinateur
+   - Entrez le nom de la machine (partiel ou complet)
+        - Si partiel, afficher la liste des ordinateur correspondant aux caracètres saisis
+        - Si complet, afficher directement l'ordinateur
+    - Valider la connexion
+
+b.1) Proposer une liste d'action :
+     - redémarrer la machine
+     - éteindre la machine
+     - créer des dossiers :
+          - dossier compta (avec fichiers correspondants)
+          - dossier production (avec fichiers correspondants)
+     - etc.
+
+b.2) Pour chaque action, message de réussite et enrigstrer les logs avec des "echo >> fichier_log"
