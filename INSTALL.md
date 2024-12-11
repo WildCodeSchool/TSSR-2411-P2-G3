@@ -23,3 +23,5 @@ ssh-keygen -t rsa<br>
 ssh-copy-id user@machine_ip
 
 ![image (1)](https://github.com/user-attachments/assets/6be3dd73-d292-4d88-a93e-73fbbd758e02)
+
+Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH avec les mêmes paramètres réseau, la clé ssh avait chang, elle n'était plus reconnue par Debian qui refusait de se connecter. Pour solutionner ça, il a fallu supprimer la clé SSH de Debian stockée dans le fichier known_hosts, et relancer la connexion SSH pour enregistrer la nouvelle clé.
