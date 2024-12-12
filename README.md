@@ -3,6 +3,17 @@
 <br>
 
 ## 1. Presentation et objectifs.
+Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
+
+a)Objectif principal
+ * Créer un script qui s’exécute sur une machine et effectue des tâches sur des machines distantes :
+    * Depuis Windows Server vers Windows
+    * Depuis Debian vers Ubuntu
+ * Rédiger la documentation de configuration des environnements et de l’exécution du script
+ * Présenter le projet
+
+ b)Objectif secondaire
+ * Depuis un serveur Debian, cibler une machine Windows ou depuis Windows Server 2022, cibler une machine Ubuntu
 
 ## 2. Choix techniques.
 
