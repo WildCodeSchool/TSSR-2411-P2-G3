@@ -48,7 +48,7 @@ b.2) Pour chaque action, message de réussite et enrigstrer les logs avec des "e
 # Difficultés
 
 - Intégration de Dialog dans le script : il a fallu modifier l'ensemble du script pour intégrer dialog
-- Difficultés pour intégrer l'autocomplétion : on a choisi de tester cette fonction sur la fonction collecte_utilisateurs_infos()
+- Difficultés pour intégrer l'autocomplétion : on a choisi de tester cette fonction sur la fonction collecte_utilisateurs_infos() avec la commande laslog.
 Il y a eu plusieurs versions
      - sur la première version on avait une erreur, il n'affichait rien quel que soit l'utilisateur sélectionné avec un message ""lastlog : Utilisateur ou gamme inconnu : utilisateur"
      - on a modifié, le script, après cette modif lorsque le script trouvait 1 seul utilisateur avec la chaine de caractères tapée -> il affichait directement les infos de celui-ci, sans passer par une liste. Ca fonctionnait, mais le souci était que s'il y avait plusieurs utilisateurs et qu'il fallait en choisir un dans la liste, dans ce cas il affichait systémtatiquement "never logged in".
