@@ -133,6 +133,38 @@ Gardez bien cette adresse IP, car on va remettre cette même adresse au moment d
 
 ## 5. Installation et configuration de SSH
 
+### 1. Préparer le client Windows 10 pour SSH
+
+Aller dans Paramètres > Applications > Applications et fonctionnalités > Fonctionnalités facultatives
+Cliquez sur Ajouter une fonctionnalité.
+Recherchez et installez OpenSSH Server.
+
+![image](https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41)
+
+Activer et démarrer le service SSH dans Powershell avec la commande suivante :
+``Get-Service -Name sshd``
+``Start-Service -Name sshd``
+``Set-Service -Name sshd -StartupType Automatic``
+
+
+Installer OpenSSH Server :
+Accédez à Paramètres > Applications > Applications et fonctionnalités > Fonctionnalités facultatives.
+Cliquez sur Ajouter une fonctionnalité.
+Recherchez et installez OpenSSH Server.
+Activer et démarrer le service SSH :
+Ouvrez une invite de commande ou PowerShell en tant qu'administrateur.
+Exécutez les commandes suivantes :
+powershell
+Copier le code
+Get-Service -Name sshd
+Start-Service -Name sshd
+Set-Service -Name sshd -StartupType Automatic
+Configurer le pare-feu pour SSH :
+Ouvrez PowerShell en administrateur et exécutez :
+powershell
+Copier le code
+New-NetFirewallRule -Name "SSH" -DisplayName "SSH" -Protocol TCP -LocalPort 22 -Action Allo
+
 ## 2. Machine administrateur sous Windows Server 2022
 
 ### 1. Installation de Windows Server 2022
