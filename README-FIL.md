@@ -1,6 +1,6 @@
-# ▶️ Documentation générale
-# ▶️ TSSR-2411-P2-G3 
-# ▶️ The scripting project
+# 🔔 Documentation générale
+# ⏩ TSSR-2411-P2-G3 
+# ⏩ The scripting project
 <br>
 
 ## 🔷 1. Presentation et objectifs.
