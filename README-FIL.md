@@ -109,5 +109,7 @@ Si cela avait été à refaire, nous aurions directement débuté notre script B
 ### Améliorations possibles : suggestions d’améliorations futures
 1) Finaliser toutes les commandes sur Powershell
 2) Implémenter de nouvelles commandes pour Bash et Powershell
-3) Réussir à se connecter sans mot de passe en ssh sur Powershell
-4) Amméliorer la navigation dans le menu avec un fil d'Ariane comme sur un site web
+3) Renforcer les tests de variables de chaque fonction pour prendre en compte tous les cas de figure
+4) Réussir à se connecter sans mot de passe en ssh sur Powershell
+5) Amméliorer la navigation dans le menu avec un fil d'Ariane comme sur un site web
+6) Se connecter à une machine équipée d'un autre OS (nous n'avons pas eu le temps de le mettre en place)
