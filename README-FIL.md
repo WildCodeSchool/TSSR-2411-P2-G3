@@ -63,20 +63,20 @@ Taux de réalisation en pourcentage des commandes :
 
 |`Type`|`Cible`|`Tâche`|`Bash`|`PowerShell`|
 |:-:|:-:|:-:|:-:|:-:|
-|Action|Utilisateur|Afficher la liste des utilisateurs|:white_check_mark:|:x:|
-|Action|Utilisateur|Créer un utilisateur|:white_check_mark:|:x:|
-|Action|Utilisateur|Modifier le mot de passe d'un utilisateur|:white_check_mark:|:x:|
-|Action|Utilisateur|Supprimer un utilisateur|:white_check_mark:|:x:|
+|Action|Utilisateur|Afficher la liste des utilisateurs|:white_check_mark:|:white_check_mark:|
+|Action|Utilisateur|Créer un utilisateur|:white_check_mark:|:white_check_mark:|
+|Action|Utilisateur|Modifier le mot de passe d'un utilisateur|:white_check_mark:|:white_check_mark:|
+|Action|Utilisateur|Supprimer un utilisateur|:white_check_mark:|:white_check_mark:|
 |Action|Utilisateur|Lister les services actifs|:white_check_mark:|:x:|
 |Action|Utilisateur|Démarrer un service|:white_check_mark:|:x:|
 |Action|Utilisateur|Arrêter un service|:white_check_mark:|:x:|
 |Action|Ordinateur|Afficher les partitions des disques|:white_check_mark:|:x:|
 |Action|Ordinateur|Version du système|:white_check_mark:|:x:|
 |Action|Ordinateur|Rechercher et appliquer les mises à jour|:white_check_mark:|:x:|
-|Action|Ordinateur|Lister les mises à jour|:white_check_mark:|:x:|
-|Action|Ordinateur|Mettre à jour le système|:white_check_mark:|:x:|
-|Action|Ordinateur|Arrêter un ordinateur|:white_check_mark:|:x:|
-|Action|Ordinateur|Redémarrer un ordinateur|:white_check_mark:|:x:|
+|Action|Ordinateur|Lister les mises à jour|:white_check_mark:|:white_check_mark:|
+|Action|Ordinateur|Mettre à jour le système|:white_check_mark:|:white_check_mark:|
+|Action|Ordinateur|Arrêter un ordinateur|:white_check_mark:|:white_check_mark:|
+|Action|Ordinateur|Redémarrer un ordinateur|:white_check_mark:|:white_check_mark:|
 |Action|Ordinateur|Informations sur un utilisateur|:white_check_mark:|:x::|
 |Action|Ordinateur|Informations sur un ordinateur|:white_check_mark:|:x:|
 |Action|Ordinateur|Consulter les logs|:white_check_mark:|:x:|
