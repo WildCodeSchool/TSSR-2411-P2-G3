@@ -75,7 +75,7 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 |Ordinateur|Mettre à jour le système|:white_check_mark:|:white_check_mark:|
 |Ordinateur|Arrêter un ordinateur|:white_check_mark:|:white_check_mark:|
 |Ordinateur|Redémarrer un ordinateur|:white_check_mark:|:white_check_mark:|
-|Utilisateur|Informations sur un utilisateur|:white_check_mark:|:x::|
+|Utilisateur|Informations sur un utilisateur|:white_check_mark:|:x:|
 |Ordinateur|Informations sur un ordinateur|:white_check_mark:|:x:|
 |Ordinateur|Consulter les logs|:white_check_mark:|:x:|
 |Utilisateur|Consulter les infos utilisateur|:white_check_mark:|:x:|
