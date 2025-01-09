@@ -93,10 +93,12 @@ Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé
 2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell (essais toujours en cours sur Powershell). Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures.
 3) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
 - Commandes qui ne fonctionne pas car :
-      - la syntaxe est fausse
-      - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
-      - le PC distant n'a pas la configuration requise pou rexécuter la commande
-      - 
+  - la syntaxe est fausse
+  - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
+  - le PC distant n'a pas la configuration requise pour exécuter la commande (manque un module par exemple)
+- Intégration difficile de Dialog dans Bash
+   - pour améliorer l'expérience utilisateur nous avons choisi d'utiliser Dialog, qui permet un affichage plus convivial et intuitif que celui proposé dans un menu basique. Sauf que nous l'avons implémenter alors que nous avions déjà rédigé la majeure partie de notre script. L'intégration de Dialog s'est avérée difficile, car elle imposait que revoir en profondeur chaque fonction pour s'afficher correctement. Et c'était notamment le cas lorsqu'il fallait afficher des informations renvoyées par le cient, comme par exemple la liste des utilisateur.
+Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégrer dès les premières lignes du script.
 4) 
 5) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
 6) La recherche et la compréhension des commandes pour les actions demandées.
