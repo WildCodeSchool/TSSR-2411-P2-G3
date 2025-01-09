@@ -99,16 +99,10 @@ Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé
 - Intégration difficile de Dialog dans Bash
    - pour améliorer l'expérience utilisateur nous avons choisi d'utiliser Dialog, qui permet un affichage plus convivial et intuitif que celui proposé dans un menu basique. Sauf que nous l'avons implémenter alors que nous avions déjà rédigé la majeure partie de notre script. L'intégration de Dialog s'est avérée difficile, car elle imposait que revoir en profondeur chaque fonction pour s'afficher correctement. Et c'était notamment le cas lorsqu'il fallait afficher des informations renvoyées par le cient, comme par exemple la liste des utilisateur.
 Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégrer dès les premières lignes du script.
-4) 
-5) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
-6) La recherche et la compréhension des commandes pour les actions demandées.
-7) Temps passé à coder des parties en local et en SSH qui ne devaient être qu'en SSH.
-8) La compréhention de ce que représente, ainsi que la création de la partie information.
-9) Organisation dans le groupe, notament un agenda commun des tache type Myro.
-
 
 ### Solutions trouvées : Solutions et alternatives trouvées
- 1)  Beaucoup de temps passé à se documenter
+ 1)  En règle générale nous avons réussi à trouver une solution pour chaque problème rencontré. Cela s'est fait au prix de nombreuses recherches sur internet et de nombreux tests sur nos VM. Nous nous sommes par exemple documentés pour trouver les commandes à implémenter dans le script, améliorer notre syntaxe, ou encore ajouter des éléments que nous aurions oublié.
+ 2)  La création d'un fichier temporaire ``$tempfile`` pour récupérer les infos renvoyées par le PC distant et les afficher correctement dans Dialog a été très utile et nous a servi dans de nombreuses fonctions.
  
 
 ### Améliorations possibles : suggestions d’améliorations futures
