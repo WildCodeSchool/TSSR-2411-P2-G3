@@ -92,9 +92,10 @@ Taux de réalisation en pourcentage des commandes :
 Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé les bases de tout ce que nous avons fait ensuite.
 2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell (essais toujours en cours sur Powershell). Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures.
 3) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
-- commandes qui ne fonctionne pas car :
+- Commandes qui ne fonctionne pas car :
       - la syntaxe est fausse
-      - le PC distant n'a pas la configuration nécessaire à l'exécution de la commande
+      - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
+      - le PC distant n'a pas la configuration requise pou rexécuter la commande
       - 
 4) 
 5) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
