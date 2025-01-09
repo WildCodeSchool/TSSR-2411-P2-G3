@@ -54,11 +54,9 @@ Le but de ce projet est de produire un script Bash ou Powershell, qui permette d
 
 
 ### 4 Taux de réalisation des tâches
-Les scripts Bash et Powershell contiennent chacun 19 actionit 58 commandes à réaliser au total par langage :
-36 commandes en local + 22 commandes à distance en SSH.
-Taux de réalisation en pourcentage des commandes :
-#### `- BASH : 81%`
-#### `- POWERSHELL : 10%`
+Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées via SSH. Voici les taux de réalisation de chacun d'eux :
+### `- BASH : 100%`
+### `- POWERSHELL : 50%`
 
 
 |`Cible`|`Tâche`|`Bash`|`PowerShell`|
