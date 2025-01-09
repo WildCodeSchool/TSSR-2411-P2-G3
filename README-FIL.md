@@ -71,17 +71,17 @@ Taux de réalisation en pourcentage des commandes :
 |Action|Utilisateur|Démarrer un service|:white_check_mark:|:x:|
 |Action|Utilisateur|Arrêter un service|:white_check_mark:|:x:|
 |Action|Ordinateur client|Afficher les partitions des disques|:white_check_mark:|:x:|
-|Action|Ordinateur client |Version du système|:x:|:white_check_mark:|
+|Action|Ordinateur client |Version du système|:white_check_mark:|:x:|
 |Action|Ordinateur client|Rechercher et appliquer les mises à jour|:white_check_mark:|:x:|
-|Action|Ordinateur client|Lister les mises à jour|:x:|:white_check_mark:|
+|Action|Ordinateur client|Lister les mises à jour|:white_check_mark:|:x:|
 |Action|Ordinateur client|Mettre à jour le système|:white_check_mark:|:x:|
-|Action|Ordinateur client|Arrêter un ordinateur|:x:|:white_check_mark:|
+|Action|Ordinateur client|Arrêter un ordinateur|:white_check_mark:|:x:|
 |Action|Ordinateur client|Redémarrer un ordinateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Informations sur un utilisateur|:x:|:white_check_mark:|
+|Action|Ordinateur client|Informations sur un utilisateur|:white_check_mark:|:x::|
 |Action|Ordinateur client|Informations sur un ordinateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Consulter les logs|:x:|:white_check_mark:|
+|Action|Ordinateur client|Consulter les logs|:white_check_mark:|:x:|
 |Action|Ordinateur client|Consulter les infos utilisateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Consulter les infos de l'ordinateur|:x:|:x:|
+|Action|Ordinateur client|Consulter les infos de l'ordinateur|:white_check_mark:|:x:|
 
 
 ## 4. Difficultés / Solutions / Améliorations
