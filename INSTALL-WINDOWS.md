@@ -252,7 +252,7 @@ Activer et démarrer le service SSH dans Powershell avec la commande suivante :<
 ``Start-Service -Name sshd``<br>
 ``Set-Service -Name sshd -StartupType Automatic``<br>
 
-** Tester la connectivité SSH
+**Tester la connectivité SSH**
 
 Depuis le serveur Windows 2022, ouvrir PowerShell ou CMD et exécuter une commande ping pour tester la connectivité :<br>
 ``ping <IP_du_Client_Windows10>``
