@@ -245,7 +245,7 @@ Aller dans Paramètres > Applications > Applications et fonctionnalités > Fonct
 Cliquer sur Ajouter une fonctionnalité.
 Rechercher et installer OpenSSH Server si ce n'est pas encore fait.
 
-![image](https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41)
+<br><p align="center"><img width="90%" src="https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41" alt=""></p>
 
 Activer et démarrer le service SSH dans Powershell avec la commande suivante :
 ``Get-Service -Name sshd``<br>
