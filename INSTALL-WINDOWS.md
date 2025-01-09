@@ -243,7 +243,7 @@ On vas également configurer l'adresse IP pour le serveur :
 
 Aller dans Paramètres > Applications > Applications et fonctionnalités > Fonctionnalités facultatives
 Cliquer sur Ajouter une fonctionnalité.
-Rechercher et installer OpenSSH Server.
+Rechercher et installer OpenSSH Server si ce n'est pas encore fait.
 
 ![image](https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41)
 
@@ -252,10 +252,15 @@ Activer et démarrer le service SSH dans Powershell avec la commande suivante :
 ``Start-Service -Name sshd``<br>
 ``Set-Service -Name sshd -StartupType Automatic``<br>
 
+** Tester la connectivité SSH
 
-Configurer le pare-feu pour SSH :
-Ouvrez PowerShell en administrateur et exécutez la commande :
-``New-NetFirewallRule -Name "SSH" -DisplayName "SSH" -Protocol TCP -LocalPort 22 -Action Allo``
+Depuis le serveur Windows 2022, ouvrir PowerShell ou CMD et exécuter une commande ping pour tester la connectivité :<br>
+``ping <IP_du_Client_Windows10>``
+Dans notre cas : ``ping 172.16.10.20``<br>
+Si le ping est OK, on tente de se connecter en SSH avec la commande suivante :<br>
+ssh wilder@172.16.10.20
+
+Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
 
 
 # 3. Pour aller plus loin dans la configuration
