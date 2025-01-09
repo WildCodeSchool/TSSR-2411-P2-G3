@@ -53,7 +53,7 @@ Le but de ce projet est de produire un script Bash ou Powershell, qui permette d
 | Technicien 2 |  Karim | Philippe | Angel | Saddem | 
 
 
-### 4 Taux de réalisation des tâches
+## 4. Taux de réalisation des tâches
 Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées via SSH. Voici les taux de réalisation de chacun d'eux :
 ### `- BASH : 100%`
 ### `- POWERSHELL : 50%`
@@ -82,7 +82,7 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 |Ordinateur|Consulter les infos de l'ordinateur|:white_check_mark:|:x:|
 
 
-## 4. Difficultés / Solutions / Améliorations
+## 5. Difficultés / Solutions / Améliorations
 
 ### Difficultés rencontrées : problèmes techniques rencontrés
 
