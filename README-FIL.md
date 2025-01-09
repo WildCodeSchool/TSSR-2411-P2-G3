@@ -91,12 +91,11 @@ Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé
 2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell (essais toujours en cours sur Powershell). Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures.
 3) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
 - Commandes qui ne fonctionne pas car :
-  - la syntaxe est fausse
   - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
   - le PC distant n'a pas la configuration requise pour exécuter la commande (manque un module par exemple)
 - Intégration difficile de Dialog dans Bash
    - pour améliorer l'expérience utilisateur nous avons choisi d'utiliser Dialog, qui permet un affichage plus convivial et intuitif que celui proposé dans un menu basique. Sauf que nous l'avons implémenter alors que nous avions déjà rédigé la majeure partie de notre script. L'intégration de Dialog s'est avérée difficile, car elle imposait que revoir en profondeur chaque fonction pour s'afficher correctement. Et c'était notamment le cas lorsqu'il fallait afficher des informations renvoyées par le cient, comme par exemple la liste des utilisateur.
-Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégrer dès les premières lignes du script.
+Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégré dès les premières lignes du script.
 - Intégration difficle d'une recherche par nom partiel dans Bash : il nous a fallu plusieurs heures de tests pour obtenir qu'un nom partiel tapé dans le terminal renvoie tous les comptes comportant les lettres saisies. Et pouvoir ensuite sélectionner celui de notre choix.
 
 ### 🔹 Solutions trouvées : Solutions et alternatives trouvées
@@ -109,5 +108,5 @@ Si cela avait été à refaire, nous aurions directement débuté notre script B
 2) Implémenter de nouvelles commandes pour Bash et Powershell
 3) Renforcer les tests de variables de chaque fonction pour prendre en compte tous les cas de figure
 4) Réussir à se connecter sans mot de passe en ssh sur Powershell
-5) Amméliorer la navigation dans le menu avec un fil d'Ariane comme sur un site web
+5) Améliorer la navigation dans le menu avec un fil d'Ariane comme sur un site web
 6) Se connecter à une machine équipée d'un autre OS (nous n'avons pas eu le temps de le mettre en place)
