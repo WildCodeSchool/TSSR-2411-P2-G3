@@ -70,18 +70,18 @@ Taux de réalisation en pourcentage des commandes :
 |Action|Utilisateur|Lister les services actifs|:white_check_mark:|:x:|
 |Action|Utilisateur|Démarrer un service|:white_check_mark:|:x:|
 |Action|Utilisateur|Arrêter un service|:white_check_mark:|:x:|
-|Action|Ordinateur client|Afficher les partitions des disques|:white_check_mark:|:x:|
-|Action|Ordinateur client |Version du système|:white_check_mark:|:x:|
-|Action|Ordinateur client|Rechercher et appliquer les mises à jour|:white_check_mark:|:x:|
-|Action|Ordinateur client|Lister les mises à jour|:white_check_mark:|:x:|
-|Action|Ordinateur client|Mettre à jour le système|:white_check_mark:|:x:|
-|Action|Ordinateur client|Arrêter un ordinateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Redémarrer un ordinateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Informations sur un utilisateur|:white_check_mark:|:x::|
-|Action|Ordinateur client|Informations sur un ordinateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Consulter les logs|:white_check_mark:|:x:|
-|Action|Ordinateur client|Consulter les infos utilisateur|:white_check_mark:|:x:|
-|Action|Ordinateur client|Consulter les infos de l'ordinateur|:white_check_mark:|:x:|
+|Action|Ordinateur|Afficher les partitions des disques|:white_check_mark:|:x:|
+|Action|Ordinateur|Version du système|:white_check_mark:|:x:|
+|Action|Ordinateur|Rechercher et appliquer les mises à jour|:white_check_mark:|:x:|
+|Action|Ordinateur|Lister les mises à jour|:white_check_mark:|:x:|
+|Action|Ordinateur|Mettre à jour le système|:white_check_mark:|:x:|
+|Action|Ordinateur|Arrêter un ordinateur|:white_check_mark:|:x:|
+|Action|Ordinateur|Redémarrer un ordinateur|:white_check_mark:|:x:|
+|Action|Ordinateur|Informations sur un utilisateur|:white_check_mark:|:x::|
+|Action|Ordinateur|Informations sur un ordinateur|:white_check_mark:|:x:|
+|Action|Ordinateur|Consulter les logs|:white_check_mark:|:x:|
+|Action|Ordinateur|Consulter les infos utilisateur|:white_check_mark:|:x:|
+|Action|Ordinateur|Consulter les infos de l'ordinateur|:white_check_mark:|:x:|
 
 
 ## 4. Difficultés / Solutions / Améliorations
