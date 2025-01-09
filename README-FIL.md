@@ -42,7 +42,7 @@ Le but de ce projet est de produire un script Bash ou Powershell, qui permette d
   * Mot de passe : Azerty1*
   * Adresse IP fixe : 172.16.10.10/24
 
-## 3· Membres du groupe
+## 3. Membres du groupe
 
 
 | Rôles du groupe | SPRINT 1 | SPRINT 2 | SPRINT 3 | SPRINT 4 |  
@@ -125,9 +125,9 @@ Taux de réalisation en pourcentage des commandes :
 |Information|Script|Recherche des evenements dans le fichier log_evt.log pour un ordinateur|:white_check_mark:|:x:|
 
 
-### 4 Difficultés / Solutions / Améliorations
+## 4. Difficultés / Solutions / Améliorations
 
-**- Difficultés rencontrées : problèmes techniques rencontrés**
+### Difficultés rencontrées : problèmes techniques rencontrés**
 
 1) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
 2) La recherche et la compréhension des commandes pour les actions demandées.
@@ -136,10 +136,10 @@ Taux de réalisation en pourcentage des commandes :
 5) Organisation dans le groupe, notament un agenda commun des tache type Myro.
 
 
-**- Solutions trouvées : Solutions et alternatives trouvées**
+### Solutions trouvées : Solutions et alternatives trouvées**
  1)  Beaucoup de temps passé à se documenter
  
 
-**- Améliorations possibles : suggestions d’améliorations futures**
+### Améliorations possibles : suggestions d’améliorations futures**
 1) Finir les commandes
 2) Implémenter les adresses IP dans le fichier des Logs
