@@ -136,10 +136,10 @@ Gardez bien cette adresse IP, car on va remettre cette même adresse au moment d
 ### 1. Préparer le client Windows 10 pour SSH
 
 Aller dans Paramètres > Applications > Applications et fonctionnalités > Fonctionnalités facultatives
-Cliquez sur Ajouter une fonctionnalité.
-Recherchez et installez OpenSSH Server.
+Cliquer sur Ajouter une fonctionnalité.
+Rechercher et installer OpenSSH Server.
 
-![image](https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41)
+<br><p align="center"><img width="50%" src="https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41" alt=""></p>
 
 Activer et démarrer le service SSH dans Powershell avec la commande suivante :
 ``Get-Service -Name sshd``<br>
@@ -238,6 +238,25 @@ On vas également configurer l'adresse IP pour le serveur :
 <p align="center">:arrow_forward: Si vous revenez en arrière dans votre invitation de commande, votre adresse IPV4 aura été modifié avec succès !</p>
 
 ## 6. Installation et configuration de SSH
+
+### 1. Préparer le serveur Windows 2022 pour SSH
+
+Aller dans Paramètres > Applications > Applications et fonctionnalités > Fonctionnalités facultatives
+Cliquer sur Ajouter une fonctionnalité.
+Rechercher et installer OpenSSH Server.
+
+![image](https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41)
+
+Activer et démarrer le service SSH dans Powershell avec la commande suivante :
+``Get-Service -Name sshd``<br>
+``Start-Service -Name sshd``<br>
+``Set-Service -Name sshd -StartupType Automatic``<br>
+
+
+Configurer le pare-feu pour SSH :
+Ouvrez PowerShell en administrateur et exécutez la commande :
+``New-NetFirewallRule -Name "SSH" -DisplayName "SSH" -Protocol TCP -LocalPort 22 -Action Allo``
+
 
 # 3. Pour aller plus loin dans la configuration
 
