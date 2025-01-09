@@ -88,12 +88,20 @@ Taux de réalisation en pourcentage des commandes :
 
 ### Difficultés rencontrées : problèmes techniques rencontrés
 
-1) Notre première difficulté a été de prendre du recul et de réfléchir aux différentes fonctionnalités que nous souhaitions implémenter dans le script. La première semaine nous avons démarrer le script Bash avec comme objectif de pouvoir se connecter sur la machine distante et de faire quelques actions dessus. Mais n
-2) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
-3) La recherche et la compréhension des commandes pour les actions demandées.
-4) Temps passé à coder des parties en local et en SSH qui ne devaient être qu'en SSH.
-5) La compréhention de ce que représente, ainsi que la création de la partie information.
-6) Organisation dans le groupe, notament un agenda commun des tache type Myro.
+1) Notre première difficulté a été de prendre du recul et de réfléchir aux différentes fonctionnalités que nous souhaitions implémenter dans le script. La première semaine nous avons démarrer le script Bash avec comme objectif de pouvoir se connecter sur la machine distante et de faire quelques actions dessus. Mais à un moment donné nous avons réalisé qu'il était important de réaliser le squelette du script pour bien ordonner nos idées et savoir de quoi seraient composés les différents menu.
+Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé les bases de tout ce que nous avons fait ensuite.
+2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell (essais toujours en cours sur Powershell). Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures.
+3) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
+- commandes qui ne fonctionne pas car :
+      - la syntaxe est fausse
+      - le PC distant n'a pas la configuration nécessaire à l'exécution de la commande
+      - 
+4) 
+5) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
+6) La recherche et la compréhension des commandes pour les actions demandées.
+7) Temps passé à coder des parties en local et en SSH qui ne devaient être qu'en SSH.
+8) La compréhention de ce que représente, ainsi que la création de la partie information.
+9) Organisation dans le groupe, notament un agenda commun des tache type Myro.
 
 
 ### Solutions trouvées : Solutions et alternatives trouvées
