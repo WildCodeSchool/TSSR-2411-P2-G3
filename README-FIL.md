@@ -86,19 +86,20 @@ Taux de réalisation en pourcentage des commandes :
 
 ## 4. Difficultés / Solutions / Améliorations
 
-### Difficultés rencontrées : problèmes techniques rencontrés**
+### Difficultés rencontrées : problèmes techniques rencontrés
 
-1) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
-2) La recherche et la compréhension des commandes pour les actions demandées.
-3) Temps passé à coder des parties en local et en SSH qui ne devaient être qu'en SSH.
-4) La compréhention de ce que représente, ainsi que la création de la partie information.
-5) Organisation dans le groupe, notament un agenda commun des tache type Myro.
+1) Notre première difficulté a été de prendre du recul et de réfléchir aux différentes fonctionnalités que nous souhaitions implémenter dans le script. La première semaine nous avons démarrer le script Bash avec comme objectif de pouvoir se connecter sur la machine distante et de faire quelques actions dessus. Mais n
+2) Notre première difficulté a été de comprendre les besoins de ce script, et donc les solutions que nous allions devoir trouver.
+3) La recherche et la compréhension des commandes pour les actions demandées.
+4) Temps passé à coder des parties en local et en SSH qui ne devaient être qu'en SSH.
+5) La compréhention de ce que représente, ainsi que la création de la partie information.
+6) Organisation dans le groupe, notament un agenda commun des tache type Myro.
 
 
-### Solutions trouvées : Solutions et alternatives trouvées**
+### Solutions trouvées : Solutions et alternatives trouvées
  1)  Beaucoup de temps passé à se documenter
  
 
-### Améliorations possibles : suggestions d’améliorations futures**
+### Améliorations possibles : suggestions d’améliorations futures
 1) Finir les commandes
 2) Implémenter les adresses IP dans le fichier des Logs
