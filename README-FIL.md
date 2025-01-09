@@ -3,7 +3,7 @@
 # The scripting project
 <br>
 
-## 🔵 1. Presentation et objectifs.
+## 🔷 1. Presentation et objectifs.
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
 
 ### 🔹 Objectif principal
@@ -16,7 +16,7 @@ Le but de ce projet est de produire un script Bash ou Powershell, qui permette d
 ### 🔹 Objectif secondaire
  * Depuis un serveur Debian, cibler une machine Windows ou depuis Windows Server 2022, cibler une machine Ubuntu
 
-## 🔵 2. Choix techniques
+## 🔷 2. Choix techniques
 
 ### 🔹 Client Windows 10
   * Nom : CLIWIN01
@@ -42,7 +42,7 @@ Le but de ce projet est de produire un script Bash ou Powershell, qui permette d
   * Mot de passe : Azerty1*
   * Adresse IP fixe : 172.16.10.10/24
 
-## 🔵 3. Membres du groupe
+## 🔷 3. Membres du groupe
 
 
 | Rôles du groupe | SPRINT 1 | SPRINT 2 | SPRINT 3 | SPRINT 4 |  
@@ -53,7 +53,7 @@ Le but de ce projet est de produire un script Bash ou Powershell, qui permette d
 | Technicien 2 |  Karim | Philippe | Angel | Saddem | 
 
 
-## 🔵 4. Taux de réalisation des tâches
+## 🔷 4. Taux de réalisation des tâches
 Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées via SSH. Voici les taux de réalisation de chacun d'eux :
 ### `- BASH : 100%`
 ### `- POWERSHELL : 50%`
@@ -82,7 +82,7 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 |Ordinateur|Consulter les infos de l'ordinateur|:white_check_mark:|:x:|
 
 
-## 🔵 5. Difficultés / Solutions / Améliorations
+## 🔷 5. Difficultés / Solutions / Améliorations
 
 ### 🔹 Difficultés rencontrées : problèmes techniques rencontrés
 
