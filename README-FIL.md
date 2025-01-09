@@ -10,15 +10,15 @@
    1. [Client Windows 10](#1-Changement-du-port-utilisé-par-le-bureau-à-distance)
    2. [Client Ubuntu](#2-Echec-de-la-connexion-depuis-le-PC-client)
    3. [Serveur Windows Server 2022](#3-Recherche-de-solutions)
-   4. [Serveur Debian 12](#3-Recherche-de-solutions)
+   4. [Serveur Debian 12](#4-Recherche-de-solutions)
 3. [Membres du groupe](#3-Paramétrage-en-réseau-privé)
    1. [Windows 10](#1-windows-10)
    2. [Windows Server 2022](#2-Windows-Server-2022)
 4. [Réalisation des tâches](#4-Installation-de-MobaXterm-sur-Windows-10)
 5. [Difficultés / Solutions / Améliorations](#5-Sécurisation-de-TightVNC)
-   1. [Difficultés rencontrées : problèmes techniques rencontrés]
-   2. [Solutions trouvées : Solutions et alternatives trouvées]
-   3. [Améliorations possibles : suggestions d’améliorations futures]
+   1. [Difficultés rencontrées : problèmes techniques rencontrés](#1-Sécurisation-de-TightVNC)
+   2. [Solutions trouvées : Solutions et alternatives trouvées](#2-Sécurisation-de-TightVNC)
+   3. [Améliorations possibles : suggestions d’améliorations futures](#3-Sécurisation-de-TightVNC)
 
 ## 🔷 1. Présentation et objectifs
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
