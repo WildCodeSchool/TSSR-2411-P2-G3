@@ -3,7 +3,7 @@
 # The scripting project
 <br>
 
-## :large_blue_circle: 1. Presentation et objectifs.
+:large_blue_circle: ## 1. Presentation et objectifs.
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
 
 ### Objectif principal
