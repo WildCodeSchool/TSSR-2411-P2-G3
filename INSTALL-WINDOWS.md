@@ -6,12 +6,14 @@
       2. [Renommage du PC](#2-renommage-du-pc-windows-10)
       3. [Mises à jour Windows Update](#3-mises-à-jour-windows-update-windows-10)
       4. [Configuration d'une IP fixe](#4-configuration-dune-ip-fixe-windows-10)
+      5. [Installation et configuration de SSH](#5-installation-et-configuration-de-SSH)
    2. [Machine administrateur sous Windows Server 2022](#2-machine-administrateur-sous-windows-server-2022)
       1. [Installation de Windows Server 2022](#1-installation-de-windows-server-2022)
       2. [Renommage du PC](#2-renommage-du-pc-windows-server-2022)
       3. [Ajout du compte Administrator](#3-ajout-du-compte-administrator)
       4. [Mises à jour Windows Update](#4-mises-à-jour-windows-update-windows-server-2022)
       5. [Configuration d'une IP fixe](#5-configuration-dune-ip-fixe-windows-server-2022)
+      6. [Installation et configuration de SSH](#6-installation-et-configuration-de-SSH)
 3. [Pour aller plus loin dans la configuration](#3-pour-aller-plus-loin-dans-la-configuration)
 4. [FAQ](#4-FAQ)
 
@@ -129,6 +131,8 @@ Gardez bien cette adresse IP, car on va remettre cette même adresse au moment d
 <br><p align="center"><img width="90%" src="https://github.com/WildCodeSchool/TSSR-2411-P1-G3/blob/main/images/install_win10_complete/install%20windows%2010%20-%2039.png" alt=""></p>
 <p align="center">:arrow_forward:  Quand vous retournerez dans l'invite de commande et que vous taperez à nouveau la commande "ipconfig", vous vous apercevrez que l'adresse IPV4 aura changée. La configuration est terminée.</p>
 
+## 5. Installation et configuration de SSH
+
 ## 2. Machine administrateur sous Windows Server 2022
 
 ### 1. Installation de Windows Server 2022
@@ -215,6 +219,7 @@ On vas également configurer l'adresse IP pour le serveur :
 <br><p align="center"><img width="90%" src="https://github.com/WildCodeSchool/TSSR-2411-P1-G3/blob/main/images/install_win_server_2022_complete/install%20windows%20server%202022%20-%2034.png" alt=""></p>
 <p align="center">:arrow_forward: Si vous revenez en arrière dans votre invitation de commande, votre adresse IPV4 aura été modifié avec succès !</p>
 
+## 6. Installation et configuration de SSH
 
 # 3. Pour aller plus loin dans la configuration
 
