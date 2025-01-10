@@ -82,21 +82,21 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 |Utilisateur|Créer un utilisateur|:white_check_mark:|:white_check_mark:|
 |Utilisateur|Modifier le mot de passe d'un utilisateur|:white_check_mark:|:white_check_mark:|
 |Utilisateur|Supprimer un utilisateur|:white_check_mark:|:white_check_mark:|
-|Ordinateur|Lister les services actifs|:white_check_mark:|:x:|
-|Ordinateur|Démarrer un service|:white_check_mark:|:x:|
-|Ordinateur|Arrêter un service|:white_check_mark:|:x:|
-|Ordinateur|Afficher les partitions des disques|:white_check_mark:|:x:|
-|Ordinateur|Version du système|:white_check_mark:|:x:|
+|Ordinateur|Lister les services actifs|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Démarrer un service|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Arrêter un service|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Afficher les partitions des disques|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Version du système|:white_check_mark:|:white_check_mark:|
 |Ordinateur|Rechercher et appliquer les mises à jour|:white_check_mark:|:x:|
 |Ordinateur|Lister les mises à jour|:white_check_mark:|:white_check_mark:|
 |Ordinateur|Mettre à jour le système|:white_check_mark:|:x:|
 |Ordinateur|Arrêter un ordinateur|:white_check_mark:|:white_check_mark:|
 |Ordinateur|Redémarrer un ordinateur|:white_check_mark:|:white_check_mark:|
-|Utilisateur|Informations sur un utilisateur|:white_check_mark:|:x:|
-|Ordinateur|Informations sur un ordinateur|:white_check_mark:|:x:|
-|Ordinateur|Consulter les logs|:white_check_mark:|:x:|
-|Utilisateur|Consulter les infos utilisateur|:white_check_mark:|:x:|
-|Ordinateur|Consulter les infos de l'ordinateur|:white_check_mark:|:x:|
+|Utilisateur|Informations sur un utilisateur|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Informations sur un ordinateur|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Consulter les logs|:white_check_mark:|:white_check_mark:|
+|Utilisateur|Consulter les infos utilisateur|:white_check_mark:|:white_check_mark:|
+|Ordinateur|Consulter les infos de l'ordinateur|:white_check_mark:|:white_check_mark:|
 
 
 ## 🔷 5. Difficultés / Solutions / Améliorations
