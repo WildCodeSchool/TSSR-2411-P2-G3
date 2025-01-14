@@ -54,7 +54,6 @@ Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH
 
 ![install-windows-2022-05-cle-ssh](https://github.com/user-attachments/assets/beef416e-e17c-4ea7-aa9b-cf91d5f15e9f)
 
-![install-windows-2022-05-reussite-connexion-ssh](https://github.com/user-attachments/assets/b6ef6ea9-d5e4-4ef6-b727-
-ec62a601a23d)
+![install-windows-2022-05-reussite-connexion-ssh](https://github.com/user-attachments/assets/b6ef6ea9-d5e4-4ef6-b727-ec62a601a23d)
 
 
