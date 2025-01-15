@@ -1,6 +1,5 @@
 # 🔔 INSTALL-LINUX.md
-# ⏩ TSSR-2411-P2-G3 
-# ⏩ The scripting project
+## ⏩ TSSR-2411-P2-G3 / The scripting project
 
 # Sommaire<br>
 1. [Prérequis de configuration](#1-Prérequis-de-configuration)
