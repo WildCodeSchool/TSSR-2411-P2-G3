@@ -4,7 +4,7 @@
    1. [Machine client sous Ubuntu 24-04](#1-Machine-client-sous-Ubuntu-24-04)
       1. [Configuration de Proxmox](#1-Configuration-de-Proxmox)
       2. [Installation de la VM Ubuntu 24-04](#2-Installation-de-la-VM-Ubuntu-24-04)
-      3. [Configuration de la VM Ubuntu 24-04](#3-Configuration-de-la-VM-Ubuntu-24-04)
+      3. [Configuration de Ubuntu 24-04](#3-Configuration-de-Ubuntu-24-04)
       2. [Installation de Windows 10](#2-installation-de-windows-10)
       3. [Renommage du PC](#3-renommage-du-pc-windows-10)
       4. [Activation et configuration du bureau à distance](#4-activation-et-configuration-du-bureau-à-distance-windows-10)
@@ -86,7 +86,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18f3e440-aec4-47c4-b6bb-7b3923a818cd" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7462e405-9103-4d7d-b2b6-de6b67e0dad2" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3fa1d4a5-43f5-4763-8e06-83068fc970eb" alt=""></p><br>
-### 3. Paramétrage de la VM Ubuntu 24-04
+### 3. Configuration de Ubuntu 24-04
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3e446525-8f2d-41b6-a152-dbeb5035d862" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/08a09938-ce93-4f1e-ab03-2f741e48d6a6" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/d653e141-74c7-4279-b53f-8fe25d8559f0" alt=""></p><br>
