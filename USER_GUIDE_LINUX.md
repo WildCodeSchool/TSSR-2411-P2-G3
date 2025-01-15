@@ -1,7 +1,7 @@
 # User-guide
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e65b5236-699d-451a-a190-4a8b51747970" alt=""></p><br>
-![Captura de pantalla 2025-01-15 145934](https://github.com/user-attachments/assets/0ea343f6-743b-4ed7-8787-4832794fb4af)
-![Captura de pantalla 2025-01-15 145956](https://github.com/user-attachments/assets/3f76f876-eaf5-4c91-a6f4-488f59b6553f)
+<br><p align="center"><img src="https://github.com/user-attachments/assets/0ea343f6-743b-4ed7-8787-4832794fb4af" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/3f76f876-eaf5-4c91-a6f4-488f59b6553f" alt=""></p><br>
 ![Captura de pantalla 2025-01-15 150013](https://github.com/user-attachments/assets/e1d86758-8a9d-46ef-8c8c-8efaa7c7982d)
 ![Captura de pantalla 2025-01-15 150037](https://github.com/user-attachments/assets/0ed96fa5-e283-4a96-a8de-3ea08b6daba9)
 ![Captura de pantalla 2025-01-15 150053](https://github.com/user-attachments/assets/391f12e8-774a-4de3-a494-911c28e5492d)
