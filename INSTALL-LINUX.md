@@ -1,5 +1,5 @@
 # Sommaire<br>
-1. [Prérequis technique](#1-prérequis-technique)
+1. [Prérequis de configuration](#1-Prérequis-de-configuration)
 2. [Installation de base des systèmes et de leur environnement](#2-installation-de-base-des-systèmes-et-de-leur-environnement)
    1. [Machine client sous Windows 10](#1-machine-client-sous-windows-10)
       1. [Configuration de la VM](#1-configuration-de-la-vm-windows-10)
@@ -25,7 +25,7 @@
 4. [FAQ](#4-FAQ)<br><br>
 
 
-# 1. Prérequis technique
+# 1. Prérequis de configuration
 
 ## 1. Client Windows
   * VM Proxmox
