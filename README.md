@@ -13,10 +13,10 @@
    4. [Serveur Debian 12](#4-Serveur-Debian-12)
 3. [Membres du groupe](#3-Membres-du-groupe)
 4. [Réalisation des tâches](#4-Réalisation-des-tâches)
-5. [Difficultés solutions et améliorations](#5-Difficultés-solutions-et-Améliorations)
-   1. [Difficultés rencontrées : problèmes techniques rencontrés](#1-Difficultés-rencontrées-:-problèmes-techniques-rencontrés)
-   2. [Solutions trouvées : Solutions et alternatives trouvées](#2-Solutions-trouvées-:-Solutions-et-alternatives-trouvées)
-   3. [Améliorations possibles : suggestions d’améliorations futures](#3-Améliorations-possibles-:-suggestions-d’améliorations-futures)
+5. [Difficultés solutions et améliorations](#5-Difficultés-solutions-et-améliorations)
+   1. [Difficultés rencontrées et problèmes techniques rencontrés](#1-Difficultés-rencontrées-et-problèmes-techniques-rencontrés)
+   2. [Solutions trouvées ou alternatives trouvées](#2-Solutions-trouvées-ou-alternatives-trouvées)
+   3. [Améliorations possibles et suggestions d’améliorations futures](#3-Améliorations-possibles-et-suggestions-d’améliorations-futures)
 
 ## 1. Présentation et objectifs
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
@@ -97,9 +97,9 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 |Ordinateur|Consulter les infos de l'ordinateur|:white_check_mark:|:white_check_mark:|
 
 
-## 5. Difficultés / Solutions / Améliorations
+## 5. Difficultés solutions et améliorations
 
-### 1. Difficultés rencontrées : problèmes techniques rencontrés
+### 1. Difficultés rencontrées et problèmes techniques rencontrés
 
 1) Notre première difficulté a été de prendre du recul et de réfléchir aux différentes fonctionnalités que nous souhaitions implémenter dans le script. La première semaine nous avons démarrer le script Bash avec comme objectif de pouvoir se connecter sur la machine distante et de faire quelques actions dessus. Mais à un moment donné nous avons réalisé qu'il était important de réaliser le squelette du script pour bien ordonner nos idées et savoir de quoi seraient composés les différents menu.
 Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé les bases de tout ce que nous avons fait ensuite.
@@ -113,12 +113,12 @@ Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé
 Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégré dès les premières lignes du script.
 - Intégration difficle d'une recherche par nom partiel dans Bash : il nous a fallu plusieurs heures de tests pour obtenir qu'un nom partiel tapé dans le terminal renvoie tous les comptes comportant les lettres saisies. Et pouvoir ensuite sélectionner celui de notre choix.
 
-### 2. Solutions trouvées : Solutions et alternatives trouvées
+### 2. Solutions trouvées ou alternatives trouvées
  1)  En règle générale nous avons réussi à trouver une solution pour chaque problème rencontré. Cela s'est fait au prix de nombreuses recherches sur internet et de nombreux tests sur nos VM. Nous nous sommes par exemple documentés pour trouver les commandes à implémenter dans le script, améliorer notre syntaxe, ou encore ajouter des éléments que nous aurions oublié.
  2)  La création d'un fichier temporaire ``$tempfile`` pour récupérer les infos renvoyées par le PC distant et les afficher correctement dans Dialog a été très utile et nous a servi dans de nombreuses fonctions.
  
 
-### 3. Améliorations possibles : suggestions d’améliorations futures
+### 3. Améliorations possibles et suggestions d’améliorations futures
 1) Finaliser toutes les commandes sur Powershell
 2) Implémenter de nouvelles commandes pour Bash et Powershell
 3) Renforcer les tests de variables de chaque fonction pour prendre en compte tous les cas de figure
