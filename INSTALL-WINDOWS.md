@@ -14,7 +14,8 @@
       4. [Mises à jour Windows Update](#4-mises-à-jour-windows-update-windows-server-2022)
       5. [Configuration d'une IP fixe](#5-configuration-dune-ip-fixe-windows-server-2022)
       6. [Installation et configuration de SSH](#6-installation-et-configuration-de-SSH)
-
+3. [Pour aller plus loin dans la configuration](#3-Pour-aller-plus-loin-dans-la-configuration)
+4. [FAQ](#4-FAQ)
 
 # 1. Prérequis technique
 
@@ -270,6 +271,6 @@ ssh wilder@172.16.10.20
 
 Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
 # 3. Pour aller plus loin dans la configuration
-<p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p>
+<br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
 # 4. FAQ
-<p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p>
+<br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
