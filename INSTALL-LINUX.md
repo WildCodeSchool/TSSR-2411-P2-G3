@@ -5,7 +5,7 @@
       1. [Configuration de Proxmox pour VM Ubuntu](#1-Configuration-de-Proxmox-pour-VM-Ubuntu)
       2. [Installation de Ubuntu 24-04](#2-Installation-de-Ubuntu-24-04)
       3. [Configuration de Ubuntu 24-04](#3-Configuration-de-Ubuntu-24-04)
-   1. [Machine administrateur sous Debian 12](#1-Machine-administrateur-sous-Debian-12)
+   2. [Machine administrateur sous Debian 12](#2-Machine-administrateur-sous-Debian-12)
       1. [Configuration de Proxmox pour VM Debian](#1-Configuration-de-Proxmox-pour-VM-Debian)
       2. [Installation de Debian 12](#2-Installation-de-Debian-12)
       3. [Configuration de Debian 12](#3-Configuration-de-Debian-12)
@@ -76,7 +76,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/08a09938-ce93-4f1e-ab03-2f741e48d6a6" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/d653e141-74c7-4279-b53f-8fe25d8559f0" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4907454a-28b3-41f4-be17-7a12c3f6f422" alt=""></p><br>
-## 3. Machine administrateur sous Debian 12
+## 2. Machine administrateur sous Debian 12
 ### 1. Configuration de Proxmox pour VM Debian
 <br><p align="center"><img src="https://github.com/user-attachments/assets/0dee6b8b-45af-47f3-8153-bb7e4be6c1dd" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/a61241d1-e372-4022-8615-c6c8ea088e66" alt=""></p><br>
