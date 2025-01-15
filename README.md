@@ -3,7 +3,7 @@
 # ⏩ The scripting project
 
 # Sommaire
-1. [Présentation et objectifs](#1-installation-open-ssh)
+1. [Présentation et objectifs](#1-présentation-et-objectifs)
    1. [Objectif principal](#1-windows-10)
    2. [Objectif secondaire](#2-Windows-Server-2022)
 2. [Choix techniques](#2-sécuriser-la-connexion-bureau-à-distance)
