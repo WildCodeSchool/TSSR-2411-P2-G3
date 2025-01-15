@@ -3,7 +3,7 @@
 # ⏩ The scripting project
 
 # Sommaire
-1. [Présentation et objectifs](#1-présentation-et-objectifs)
+1. [Présentation et objectifs](# 🔷 1-présentation-et-objectifs)
    1. [Objectif principal](#1-windows-10)
    2. [Objectif secondaire](#2-Windows-Server-2022)
 2. [Choix techniques](#2-sécuriser-la-connexion-bureau-à-distance)
@@ -20,7 +20,7 @@
    2. [Solutions trouvées : Solutions et alternatives trouvées](#2-Sécurisation-de-TightVNC)
    3. [Améliorations possibles : suggestions d’améliorations futures](#3-Sécurisation-de-TightVNC)
 
-## 1. Présentation et objectifs
+## 🔷 1. Présentation et objectifs
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
 
 ### 🔹 1. Objectif principal
