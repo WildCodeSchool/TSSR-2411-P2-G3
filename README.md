@@ -104,7 +104,11 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 1) Notre première difficulté a été de prendre du recul et de réfléchir aux différentes fonctionnalités que nous souhaitions implémenter dans le script. La première semaine nous avons démarrer le script Bash avec comme objectif de pouvoir se connecter sur la machine distante et de faire quelques actions dessus. Mais à un moment donné nous avons réalisé qu'il était important de réaliser le squelette du script pour bien ordonner nos idées et savoir de quoi seraient composés les différents menu.
 Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé les bases de tout ce que nous avons fait ensuite.
 2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell (essais toujours en cours sur Powershell). Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures.
-3) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
+3) Difficulté également pour intégrer l'autocomplétion : on a choisi de tester cette fonction sur la fonction collecte_utilisateurs_infos() avec la commande lastlog. Il y a eu plusieurs versions
+sur la première version on avait une erreur, il n'affichait rien quel que soit l'utilisateur sélectionné avec un message "lastlog : Utilisateur ou gamme inconnu : utilisateur".<br>
+On a modifié le script, après cette modif lorsque le script trouvait 1 seul utilisateur avec la chaine de caractères tapée -> il affichait directement les infos de celui-ci, sans passer par une liste. Ca fonctionnait, mais le souci était que s'il y avait plusieurs utilisateurs et qu'il fallait en choisir un dans la liste, dans ce cas il affichait systémtatiquement "never logged in".<br>
+On a mis à jour le script et cette fois c'était OK, par contre pour que les logs soient affichés, il fallait que l'utilisateur se connecte au moins une fois en ssh, sinon on avait l'affichage "Never logged in". Pour résoudre ce problème on a donc ajouté dans le script la connexion automatique en ssh lors de la création d'un utilisateur.
+4) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
 - Commandes qui ne fonctionne pas car :
   - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
   - le PC distant n'a pas la configuration requise pour exécuter la commande (manque un module par exemple)
