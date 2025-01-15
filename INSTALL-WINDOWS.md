@@ -271,6 +271,6 @@ ssh wilder@172.16.10.20
 
 Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
 # 3. Pour aller plus loin dans la configuration
-<br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
+### <br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
 # 4. FAQ
-<br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
+### <br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
