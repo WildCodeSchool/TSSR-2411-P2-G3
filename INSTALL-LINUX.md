@@ -58,7 +58,7 @@
   * Adresse IP fixe : 172.16.10.10/24
 
 # 2. Installation de base des systèmes et de leur environnement
-## 1. Machine client sous Ubuntu 24.04](#1-Machine-client-sous-Ubuntu-24.04
+## 1. Machine client sous Ubuntu 24.04
 ### 1. Configuration de Proxmox
 <br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p><br>
