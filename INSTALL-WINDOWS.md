@@ -274,7 +274,7 @@ ssh wilder@172.16.10.20
 
 Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
 ## 7. Installation de FZF
-Nous avons fait l'installation de FZF via Scoop, voici les commandes à taper dans powershell :
+Nous avons fait l'installation de FZF via Scoop, voici les commandes à taper dans powershell :<br>
 ``iwr -useb get.scoop.sh | iex``<br>
 ``scoop --version``  (vérifie que scoop est bien installé)<br>
 ``scoop install fzf``<br>
