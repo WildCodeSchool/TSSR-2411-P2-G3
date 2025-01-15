@@ -8,7 +8,8 @@
    2. [Machine administrateur sous Debian 12](#2-Machine-administrateur-sous-Debian-12)
       1. [Configuration de Proxmox pour VM Debian](#1-Configuration-de-Proxmox-pour-VM-Debian)
       2. [Installation de Debian 12](#2-Installation-de-Debian-12)
-      3. [Configuration de Debian 12](#3-Configuration-de-Debian-12)
+      3. [Installation et configuration de SSH sur Debian 12](#3-Installation-et-configuration-de-SSH-sur-Debian-12)
+
 
 
 
@@ -117,6 +118,6 @@
 <br><p align="center"><img src="(https://github.com/user-attachments/assets/b1ba080d-a322-4d78-98df-6a277aab203f" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/28bcd0a0-5de5-4143-9361-9f43aa24fd5c" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7b003d45-a83f-4c70-a2ae-a6133dcee26a" alt=""></p><br>
-### 3. Configuration de Debian 12
+### 3. Installation et configuration de SSH sur Debian 12
 <br><p align="center"><img src="https://github.com/user-attachments/assets/5730332d-6c8d-460f-89cf-0df524ba72a7" alt=""></p><br>
 
