@@ -12,7 +12,7 @@
    3. [Serveur Windows Server 2022](#3-Serveur-Windows-Server-2022)
    4. [Serveur Debian 12](#4-Serveur-Debian-12)
 3. [Membres du groupe](#3-Membres-du-groupe)
-   1. [Windows 10](#1-windows-10)
+   1. [Windows 10](#1-Windows-10)
    2. [Windows Server 2022](#2-Windows-Server-2022)
 4. [Réalisation des tâches](#4-Réalisation-des-tâches)
 5. [Difficultés / Solutions / Améliorations](#Difficultés-/-Solutions-/-Améliorations)
