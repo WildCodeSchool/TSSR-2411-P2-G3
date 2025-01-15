@@ -152,6 +152,9 @@ Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH
 <br><p align="center"><img src="https://github.com/user-attachments/assets/add6e166-2308-497a-8766-1c4cacccbdf5" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/a6c9e615-2b6f-4931-ae3c-2134209ef150" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/dfa5b9ad-6a6a-45b0-b63d-6743a6af6f25" alt=""></p><br>
+### Note
+<br>Cette fois on peut se connecter directement à distance au compte "wilder" sans utiliser le mot de passe :<br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4426ee0d-3d5b-4f13-8d45-6e7ae2919b91" alt=""></p><br>
+<br><br>Cette fois on peut se connecter directement à distance au compte "wilder" sans utiliser le mot de passe :<br><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4c48c4b6-656e-4521-ae1d-36fce785a3c9" alt=""></p><br>
 
