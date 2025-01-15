@@ -108,7 +108,7 @@ Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé
 sur la première version on avait une erreur, il n'affichait rien quel que soit l'utilisateur sélectionné avec un message "lastlog : Utilisateur ou gamme inconnu : utilisateur".<br>
 On a modifié le script, après cette modif lorsque le script trouvait 1 seul utilisateur avec la chaine de caractères tapée -> il affichait directement les infos de celui-ci, sans passer par une liste. Ca fonctionnait, mais le souci était que s'il y avait plusieurs utilisateurs et qu'il fallait en choisir un dans la liste, dans ce cas il affichait systémtatiquement "never logged in".<br>
 On a mis à jour le script et cette fois c'était OK, par contre pour que les logs soient affichés, il fallait que l'utilisateur se connecte au moins une fois en ssh, sinon on avait l'affichage "Never logged in". Pour résoudre ce problème on a donc ajouté dans le script la connexion automatique en ssh lors de la création d'un utilisateur.
-4) En règle général l'écriture du script a été marquée par de très nombreux soucis techniques :
+4) En règle générale l'écriture du script a été marquée par de très nombreux soucis techniques :
 - Commandes qui ne fonctionne pas car :
   - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
   - le PC distant n'a pas la configuration requise pour exécuter la commande (manque un module par exemple)
