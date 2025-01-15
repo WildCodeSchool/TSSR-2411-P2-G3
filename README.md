@@ -16,7 +16,7 @@
 5. [Difficultés solutions et améliorations](#5-Difficultés-solutions-et-améliorations)
    1. [Difficultés rencontrées et problèmes techniques rencontrés](#1-Difficultés-rencontrées-et-problèmes-techniques-rencontrés)
    2. [Solutions trouvées ou alternatives trouvées](#2-Solutions-trouvées-ou-alternatives-trouvées)
-   3. [Améliorations possibles et suggestions d’améliorations futures](#3-Améliorations-possibles-et-suggestions-d’améliorations-futures)
+   3. [Améliorations possibles et suggestions pour le futur](#3-Améliorations-possibles-et-suggestions-pour-le-futur)
 
 ## 1. Présentation et objectifs
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
@@ -118,7 +118,7 @@ Si cela avait été à refaire, nous aurions directement débuté notre script B
  2)  La création d'un fichier temporaire ``$tempfile`` pour récupérer les infos renvoyées par le PC distant et les afficher correctement dans Dialog a été très utile et nous a servi dans de nombreuses fonctions.
  
 
-### 3. Améliorations possibles et suggestions d’améliorations futures
+### 3. Améliorations possibles et suggestions pour le futur
 1) Finaliser toutes les commandes sur Powershell
 2) Implémenter de nouvelles commandes pour Bash et Powershell
 3) Renforcer les tests de variables de chaque fonction pour prendre en compte tous les cas de figure
