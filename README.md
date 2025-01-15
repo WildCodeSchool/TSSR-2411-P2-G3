@@ -108,14 +108,13 @@ Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé
 sur la première version on avait une erreur, il n'affichait rien quel que soit l'utilisateur sélectionné avec un message "lastlog : Utilisateur ou gamme inconnu : utilisateur".<br>
 On a modifié le script, après cette modif lorsque le script trouvait 1 seul utilisateur avec la chaine de caractères tapée -> il affichait directement les infos de celui-ci, sans passer par une liste. Ca fonctionnait, mais le souci était que s'il y avait plusieurs utilisateurs et qu'il fallait en choisir un dans la liste, dans ce cas il affichait systémtatiquement "never logged in".<br>
 On a mis à jour le script et cette fois c'était OK, par contre pour que les logs soient affichés, il fallait que l'utilisateur se connecte au moins une fois en ssh, sinon on avait l'affichage "Never logged in". Pour résoudre ce problème on a donc ajouté dans le script la connexion automatique en ssh lors de la création d'un utilisateur.
-4) En règle générale l'écriture du script a été marquée par de très nombreux soucis techniques :
-- Commandes qui ne fonctionne pas car :
+4) Intégration difficile de Dialog dans Bash
+Pour améliorer l'expérience utilisateur nous avons choisi d'utiliser Dialog, qui permet un affichage plus convivial et intuitif que celui proposé dans un menu basique. Sauf que nous l'avons implémenter alors que nous avions déjà rédigé la majeure partie de notre script. L'intégration de Dialog s'est avérée difficile, car elle imposait que revoir en profondeur chaque fonction pour s'afficher correctement. Et c'était notamment le cas lorsqu'il fallait afficher des informations renvoyées par le cient, comme par exemple la liste des utilisateur.
+Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégré dès les premières lignes du script.
+5) En règle générale l'écriture du script a été marquée par de très nombreux soucis techniques :
+Commandes qui ne fonctionne pas car :
   - la syntaxe est juste mais un élément manquant empêche la bonne exécution de la commande
   - le PC distant n'a pas la configuration requise pour exécuter la commande (manque un module par exemple)
-- Intégration difficile de Dialog dans Bash
-   - pour améliorer l'expérience utilisateur nous avons choisi d'utiliser Dialog, qui permet un affichage plus convivial et intuitif que celui proposé dans un menu basique. Sauf que nous l'avons implémenter alors que nous avions déjà rédigé la majeure partie de notre script. L'intégration de Dialog s'est avérée difficile, car elle imposait que revoir en profondeur chaque fonction pour s'afficher correctement. Et c'était notamment le cas lorsqu'il fallait afficher des informations renvoyées par le cient, comme par exemple la liste des utilisateur.
-Si cela avait été à refaire, nous aurions directement débuté notre script Bash avec Dialog, et cela nous a servi de leçon avec Powershell, puisque le module FZF a été adopté et intégré dès les premières lignes du script.
-- Intégration difficle d'une recherche par nom partiel dans Bash : il nous a fallu plusieurs heures de tests pour obtenir qu'un nom partiel tapé dans le terminal renvoie tous les comptes comportant les lettres saisies. Et pouvoir ensuite sélectionner celui de notre choix.
 
 ### 2. Solutions trouvées ou alternatives trouvées
  1)  En règle générale nous avons réussi à trouver une solution pour chaque problème rencontré. Cela s'est fait au prix de nombreuses recherches sur internet et de nombreux tests sur nos VM. Nous nous sommes par exemple documentés pour trouver les commandes à implémenter dans le script, améliorer notre syntaxe, ou encore ajouter des éléments que nous aurions oublié.
