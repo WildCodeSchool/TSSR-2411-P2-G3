@@ -12,6 +12,7 @@
       1. [Configuration de Proxmox pour VM Debian](#1-Configuration-de-Proxmox-pour-VM-Debian)
       2. [Installation de Debian 12](#2-Installation-de-Debian-12)
       3. [Installation et configuration de SSH sur Debian 12](#3-Installation-et-configuration-de-SSH-sur-Debian-12)
+      4. [Installation de Dialog](#1-Installation-de-Dialog)
 3. [Pour aller plus loin dans la configuration](#3-Pour-aller-plus-loin-dans-la-configuration)
 4. [FAQ](#4-FAQ)
 
@@ -135,12 +136,12 @@
 ``sudo systemctl start ssh``<br>
 
 
-### Teste l'accès SSH depuis ta machine Debian vers chaque machine Ubuntu.
+### Tester l'accès de la connexion SSH
 
 ### Commandes utilisées
 ``ssh user@machine_ip``<br>
 
-## 2. Authentification par clé SSH :
+### Authentification par clé SSH :
 
 Pour éviter de taper le mot de passe à chaque fois, configure une authentification par clé SSH :
 ``ssh-keygen -t rsa``<br>
@@ -149,7 +150,7 @@ Pour éviter de taper le mot de passe à chaque fois, configure une authentifica
 <br><p align="center"><img src="https://github.com/user-attachments/assets/6be3dd73-d292-4d88-a93e-73fbbd758e02" alt=""></p><br>
 
 ### Note
-Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH avec les mêmes paramètres réseau, la clé ssh avait chang, elle n'était plus reconnue par Debian qui refusait de se connecter. Pour solutionner ça, il a fallu supprimer la clé SSH de Debian stockée dans le fichier known_hosts, et relancer la connexion SSH pour enregistrer la nouvelle clé.
+Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH avec les mêmes paramètres réseau, la clé ssh avait changé, elle n'était plus reconnue par Debian qui refusait de se connecter. Pour solutionner ça, il a fallu supprimer la clé SSH de Debian stockée dans le fichier known_hosts, et relancer la connexion SSH pour enregistrer la nouvelle clé.
 
 <br><p align="center"><img src="https://github.com/user-attachments/assets/88ab18a8-5069-4c14-bc25-b97710c449e9" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/fcee238b-015b-421c-b1ec-170a62a77c75" alt=""></p><br>
