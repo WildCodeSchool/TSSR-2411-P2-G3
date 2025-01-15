@@ -245,16 +245,17 @@ Rechercher et installer OpenSSH Server si ce n'est pas encore fait.
 
 <br><p align="center"><img width="90%" src="https://github.com/user-attachments/assets/503ee537-f31e-4c5e-a7b7-04d0cc1b4c41" alt=""></p>
 
-Activer et démarrer le service SSH dans Powershell avec la commande suivante :<br>
-``Get-Service -Name sshd``<br>
-``Start-Service -Name sshd``<br>
-``Set-Service -Name sshd -StartupType Automatic``<br>
+
 
 
 
 
 <br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/9392b495-b1c3-4dac-a009-56fd8783be38" alt=""></p>
 <br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/acf04a60-258d-43dc-b547-d08e94436e25" alt=""></p>
+<br>Activer et démarrer le service SSH dans Powershell avec la commande suivante :<br>
+``Get-Service -Name sshd``<br>
+``Start-Service -Name sshd``<br>
+``Set-Service -Name sshd -StartupType Automatic``<br>
 <br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/2b1ebbf7-3a79-47ce-ae1e-334c278581ea" alt=""></p>
 <br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/beef416e-e17c-4ea7-aa9b-cf91d5f15e9f" alt=""></p>
 <br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/b6ef6ea9-d5e4-4ef6-b727-ec62a601a23d" alt=""></p>
