@@ -1,5 +1,5 @@
 # User-guide
-![Captura de pantalla 2025-01-15 145920](https://github.com/user-attachments/assets/e65b5236-699d-451a-a190-4a8b51747970)
+<br><p align="center"><img src="https://github.com/user-attachments/assets/e65b5236-699d-451a-a190-4a8b51747970" alt=""></p><br>
 ![Captura de pantalla 2025-01-15 145934](https://github.com/user-attachments/assets/0ea343f6-743b-4ed7-8787-4832794fb4af)
 ![Captura de pantalla 2025-01-15 145956](https://github.com/user-attachments/assets/3f76f876-eaf5-4c91-a6f4-488f59b6553f)
 ![Captura de pantalla 2025-01-15 150013](https://github.com/user-attachments/assets/e1d86758-8a9d-46ef-8c8c-8efaa7c7982d)
