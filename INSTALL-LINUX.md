@@ -162,6 +162,7 @@ Cette fois on peut se connecter directement à distance au compte "wilder" sans 
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4426ee0d-3d5b-4f13-8d45-6e7ae2919b91" alt=""></p><br>
 <br>Cette fois on peut se connecter directement à distance au compte "wilder" sans utiliser le mot de passe :<br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4c48c4b6-656e-4521-ae1d-36fce785a3c9" alt=""></p><br>
+### 4. Installation de Dialog
 # 3. Pour aller plus loin dans la configuration
 ### <br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
 # 4. FAQ
