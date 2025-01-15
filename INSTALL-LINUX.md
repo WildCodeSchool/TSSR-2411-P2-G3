@@ -1,4 +1,4 @@
-# Sommaire
+# Sommaire<br>
 1. [Présentation et objectifs](#1-présentation-et-objectifs)
    1. [Objectif principal](#1-Objectif-principal)
    2. [Objectif secondaire](#2-Objectif-secondaire)
@@ -12,7 +12,7 @@
 5. [Difficultés solutions et améliorations](#5-Difficultés-solutions-et-améliorations)
    1. [Difficultés rencontrées et problèmes techniques rencontrés](#1-Difficultés-rencontrées-et-problèmes-techniques-rencontrés)
    2. [Solutions trouvées ou alternatives trouvées](#2-Solutions-trouvées-ou-alternatives-trouvées)
-   3. [Améliorations possibles et suggestions pour le futur](#3-Améliorations-possibles-et-suggestions-pour-le-futur)
+   3. [Améliorations possibles et suggestions pour le futur](#3-Améliorations-possibles-et-suggestions-pour-le-futur)<br><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e3946b1b-c706-48a3-95e0-7cfc61f910ad" alt=""></p><br>
