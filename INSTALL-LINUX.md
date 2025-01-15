@@ -3,11 +3,11 @@
 2. [Installation de base des systèmes et de leur environnement](#2-installation-de-base-des-systèmes-et-de-leur-environnement)
    1. [Machine client sous Ubuntu 24-04](#1-Machine-client-sous-Ubuntu-24-04)
       1. [Configuration de Proxmox](#1-Configuration-de-Proxmox)
-      2. [Installation de la VM Ubuntu 24-04](#2-Installation-de-la-VM-Ubuntu-24-04)
+      2. [Installation de Ubuntu 24-04](#2-Installation-de-la-VM-Ubuntu-24-04)
       3. [Configuration de Ubuntu 24-04](#3-Configuration-de-Ubuntu-24-04)
    1. [Machine administrateur sous Debian 12](#1-Machine-administrateur-sous-Debian-12)
       1. [Configuration de Proxmox](#1-Configuration-de-Proxmox)
-      2. [Installation de la VM Debian 12](#2-Installation-de-la-VM-Debian-12)
+      2. [Installation de Debian 12](#2-Installation-de-la-VM-Debian-12)
       3. [Configuration de Debian 12](#3-Configuration-de-Debian-12)
 
 
@@ -53,7 +53,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7fa5abdf-fe27-4cdf-9187-a98e7a3b1eed" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/04665c78-67af-4f3b-82f1-962f4c4bbe97" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3cd11dc0-8562-4d64-a9a3-c0480ed6c6a4" alt=""></p><br>
-### 2. Installation de la VM Ubuntu 24-04
+### 2. Installation de Ubuntu 24-04
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e3946b1b-c706-48a3-95e0-7cfc61f910ad" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4445d955-dca0-4497-b60f-f38a9998430e" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/8ec0acc7-0264-4e26-b563-f4d0f18e88e1" alt=""></p><br>
@@ -76,6 +76,8 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/08a09938-ce93-4f1e-ab03-2f741e48d6a6" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/d653e141-74c7-4279-b53f-8fe25d8559f0" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4907454a-28b3-41f4-be17-7a12c3f6f422" alt=""></p><br>
+## 3. Machine administrateur sous Debian 12
+### 1. Configuration de Proxmox
 <br><p align="center"><img src="https://github.com/user-attachments/assets/0dee6b8b-45af-47f3-8153-bb7e4be6c1dd" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/a61241d1-e372-4022-8615-c6c8ea088e66" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e8ebbdef-ceb7-4ab7-a054-e6b82d12ba08" alt=""></p><br>
@@ -87,6 +89,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/9214aa29-111c-4e1a-bd47-f2bda32d8398" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/6e9830f1-052c-4aa1-baf5-ee5ff4fa135a" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/2b46dee0-56fa-45b4-96aa-2e14e830c51e" alt=""></p><br>
+### 2. Installation de Debian 12
 <br><p align="center"><img src="https://github.com/user-attachments/assets/9ddaf695-e823-4334-89d6-988257aad44e" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/9c1a92c4-2718-4b42-ba7e-a13114817091" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4b8802f2-3ba2-4218-a1f2-9d7a2d36f7a6" alt=""></p><br>
@@ -114,5 +117,6 @@
 <br><p align="center"><img src="(https://github.com/user-attachments/assets/b1ba080d-a322-4d78-98df-6a277aab203f" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/28bcd0a0-5de5-4143-9361-9f43aa24fd5c" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7b003d45-a83f-4c70-a2ae-a6133dcee26a" alt=""></p><br>
+### 3. Installation de Debian 12
 <br><p align="center"><img src="https://github.com/user-attachments/assets/5730332d-6c8d-460f-89cf-0df524ba72a7" alt=""></p><br>
 
