@@ -23,6 +23,43 @@
    2. [Sécuriser la connexion via TightVNC](#2-sécuriser-la-connexion-via-tightvnc)
    3. [Faciliter la connexion via un script PowerShell](#3-faciliter-la-connexion-via-un-script-powershell)
 4. [FAQ](#4-FAQ)<br><br>
+
+
+# 1. Prérequis technique
+
+## 1. Client Windows
+  * VM Proxmox
+  * Nom : CLIWIN01
+  * Compte utilisateur : wilder (dans le groupe des admins locaux)
+  * Mot de passe : Azerty1*
+  * Adresse IP fixe : 172.16.10.20/24
+
+## 2. Client Ubuntu
+  * VM Proxmox
+  * Nom : CLILIN01
+  * Compte utilisateur : wilder (dans le groupe sudo)
+  * Mot de passe : Azerty1*
+  * Adresse IP fixe : 172.16.10.30/24
+
+## 3. Serveur Windows Server 2022
+  * VM Proxmox
+  * Nom : SRVWIN01
+  * Compte : Administrator (dans le groupe des admins locaux)
+  * Mot de passe : Azerty1*
+  * Adresse IP fixe : 172.16.10.5/24
+
+## 4. Serveur Debian 12
+  * VM Proxmox
+  * Nom : SRVLX01
+  * Compte : root
+  * Mot de passe : Azerty1*
+  * Adresse IP fixe : 172.16.10.10/24
+
+2. [Installation de base des systèmes et de leur environnement](#2-installation-de-base-des-systèmes-et-de-leur-environnement)
+   1. [Machine client sous Windows 10](#1-machine-client-sous-windows-10)
+
+
+<br><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e8ebbdef-ceb7-4ab7-a054-e6b82d12ba08" alt=""></p><br>
