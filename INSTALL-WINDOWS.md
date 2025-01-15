@@ -260,7 +260,13 @@ ssh wilder@172.16.10.20
 
 Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
 
-
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/f21ff5e4-2f68-4738-b401-c08a6e61ebcf" alt=""></p>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/b116a281-5a9e-40c9-ada1-7e57ca19b0f4" alt=""></p>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/9392b495-b1c3-4dac-a009-56fd8783be38" alt=""></p>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/acf04a60-258d-43dc-b547-d08e94436e25" alt=""></p>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/2b1ebbf7-3a79-47ce-ae1e-334c278581ea" alt=""></p>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/beef416e-e17c-4ea7-aa9b-cf91d5f15e9f" alt=""></p>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/b6ef6ea9-d5e4-4ef6-b727-ec62a601a23d" alt=""></p>
 # 3. Pour aller plus loin dans la configuration
 
 # 4. FAQ
