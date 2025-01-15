@@ -1,13 +1,27 @@
-
-<br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/e3946b1b-c706-48a3-95e0-7cfc61f910ad" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/4445d955-dca0-4497-b60f-f38a9998430e" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/8ec0acc7-0264-4e26-b563-f4d0f18e88e1" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/3b798c32-fb3e-4275-912e-877300e7b50b" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/b02c0da8-49e0-425e-a098-b45a157e2d89" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/bb493785-ddd5-4b9e-8061-f7c5c6cb0b85" alt=""></p>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/f5ec2356-2299-46b2-9a3e-ae7ebd4119b1" alt=""></p>
+# Sommaire
+1. [Présentation et objectifs](#1-présentation-et-objectifs)
+   1. [Objectif principal](#1-Objectif-principal)
+   2. [Objectif secondaire](#2-Objectif-secondaire)
+2. [Choix techniques](#2-Choix-techniques)
+   1. [Client Windows 10](#1-Client-Windows-10)
+   2. [Client Ubuntu](#2-Client-Ubuntu)
+   3. [Serveur Windows Server 2022](#3-Serveur-Windows-Server-2022)
+   4. [Serveur Debian 12](#4-Serveur-Debian-12)
+3. [Membres du groupe](#3-Membres-du-groupe)
+4. [Réalisation des tâches](#4-Réalisation-des-tâches)
+5. [Difficultés solutions et améliorations](#5-Difficultés-solutions-et-améliorations)
+   1. [Difficultés rencontrées et problèmes techniques rencontrés](#1-Difficultés-rencontrées-et-problèmes-techniques-rencontrés)
+   2. [Solutions trouvées ou alternatives trouvées](#2-Solutions-trouvées-ou-alternatives-trouvées)
+   3. [Améliorations possibles et suggestions pour le futur](#3-Améliorations-possibles-et-suggestions-pour-le-futur)
+<br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/e3946b1b-c706-48a3-95e0-7cfc61f910ad" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/4445d955-dca0-4497-b60f-f38a9998430e" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/8ec0acc7-0264-4e26-b563-f4d0f18e88e1" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/3b798c32-fb3e-4275-912e-877300e7b50b" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/b02c0da8-49e0-425e-a098-b45a157e2d89" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/bb493785-ddd5-4b9e-8061-f7c5c6cb0b85" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/f5ec2356-2299-46b2-9a3e-ae7ebd4119b1" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/12ea141d-ff0d-423a-9e32-d7eb9222d9a8" alt=""></p>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3c67750e-6b77-4a0b-a85f-3f5b5b53f20f" alt=""></p>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/1e89b233-6cc0-4c7b-a674-40de2a216a50" alt=""></p>
