@@ -16,6 +16,7 @@
       4. [Mises à jour Windows Update](#4-mises-à-jour-windows-update-windows-server-2022)
       5. [Configuration d'une IP fixe](#5-configuration-dune-ip-fixe-windows-server-2022)
       6. [Installation et configuration de SSH](#6-installation-et-configuration-de-SSH)
+      7. [Installation de FZF](#7-Installation-de-FZF)
 3. [Pour aller plus loin dans la configuration](#3-Pour-aller-plus-loin-dans-la-configuration)
 4. [FAQ](#4-FAQ)
 
@@ -272,6 +273,14 @@ Si le ping est OK, on tente de se connecter en SSH avec la commande suivante :<b
 ssh wilder@172.16.10.20
 
 Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
+## 7. Installation de FZF
+Nous avons fait l'installation de FZF via Scoop, voici les commandes à taper dans powershell :
+``iwr -useb get.scoop.sh | iex``<br>
+``scoop --version``  (vérifie que scoop est bien installé)<br>
+``scoop install fzf``<br>
+``fzf --version`` (vérifie que fzf est bien installé)<br>
+<br><p align="center"><img width="70%" src="https://github.com/user-attachments/assets/941f5f88-f92a-44c5-8135-2532b1933885" alt=""></p>
+
 # 3. Pour aller plus loin dans la configuration
 ### <br><p align="center">:arrow_forward: Cette section n'a pas encore été complétée par notre équipe</p><br>
 # 4. FAQ
