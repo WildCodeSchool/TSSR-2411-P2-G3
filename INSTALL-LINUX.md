@@ -120,4 +120,37 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7b003d45-a83f-4c70-a2ae-a6133dcee26a" alt=""></p><br>
 ### 3. Installation et configuration de SSH sur Debian 12
 <br><p align="center"><img src="https://github.com/user-attachments/assets/5730332d-6c8d-460f-89cf-0df524ba72a7" alt=""></p><br>
+### Assure-toi que le service SSH est installé et activé sur les machines Ubuntu distantes.
+
+<br><p align="center"><img src="https://github.com/user-attachments/assets/b1651343-ea8d-47de-88ce-857f3f4b8195)
+
+#### Commandes utilisées
+``sudo apt update && sudo apt install openssh-server``<br>
+``sudo systemctl enable ssh``<br>
+``sudo systemctl start ssh``<br>
+
+
+### Teste l'accès SSH depuis ta machine Debian vers chaque machine Ubuntu.
+
+#### Commandes utilisées
+``ssh user@machine_ip``<br>
+
+## 2. Authentification par clé SSH :
+
+Pour éviter de taper le mot de passe à chaque fois, configure une authentification par clé SSH :
+
+ssh-keygen -t rsa<br>
+ssh-copy-id user@machine_ip
+
+<br><p align="center"><img src="https://github.com/user-attachments/assets/6be3dd73-d292-4d88-a93e-73fbbd758e02" alt=""></p><br>
+
+Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH avec les mêmes paramètres réseau, la clé ssh avait chang, elle n'était plus reconnue par Debian qui refusait de se connecter. Pour solutionner ça, il a fallu supprimer la clé SSH de Debian stockée dans le fichier known_hosts, et relancer la connexion SSH pour enregistrer la nouvelle clé.
+
+<br><p align="center"><img src="https://github.com/user-attachments/assets/88ab18a8-5069-4c14-bc25-b97710c449e9" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/fcee238b-015b-421c-b1ec-170a62a77c75" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/add6e166-2308-497a-8766-1c4cacccbdf5" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/a6c9e615-2b6f-4931-ae3c-2134209ef150" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/4c0a3394-a288-4da7-b329-e9ff2ac017e4" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/182516bb-b4a9-4feb-81f6-18f1d2b58eac" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/60456c59-62ad-4240-9a07-5b9a45bc3ec9" alt=""></p><br>
 
