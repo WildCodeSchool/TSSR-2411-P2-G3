@@ -1,4 +1,4 @@
-# 🔔 Documentation générale
+# 🔔 README.md
 # ⏩ TSSR-2411-P2-G3 
 # ⏩ The scripting project
 
