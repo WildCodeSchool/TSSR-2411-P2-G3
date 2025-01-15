@@ -44,7 +44,7 @@
 
 # 2. Installation de base des systèmes et de leur environnement
 ## 1. Machine client sous Ubuntu 24-04
-### 1. Configuration de Proxmox
+### 1. Configuration de Proxmox pour VM Ubuntu
 <br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e8ebbdef-ceb7-4ab7-a054-e6b82d12ba08" alt=""></p><br>
@@ -77,7 +77,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/d653e141-74c7-4279-b53f-8fe25d8559f0" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4907454a-28b3-41f4-be17-7a12c3f6f422" alt=""></p><br>
 ## 3. Machine administrateur sous Debian 12
-### 1. Configuration de Proxmox
+### 1. Configuration de Proxmox pour VM Debian
 <br><p align="center"><img src="https://github.com/user-attachments/assets/0dee6b8b-45af-47f3-8153-bb7e4be6c1dd" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/a61241d1-e372-4022-8615-c6c8ea088e66" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e8ebbdef-ceb7-4ab7-a054-e6b82d12ba08" alt=""></p><br>
