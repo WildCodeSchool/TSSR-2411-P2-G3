@@ -118,9 +118,10 @@
 <br><p align="center"><img src="(https://github.com/user-attachments/assets/b1ba080d-a322-4d78-98df-6a277aab203f" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/28bcd0a0-5de5-4143-9361-9f43aa24fd5c" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7b003d45-a83f-4c70-a2ae-a6133dcee26a" alt=""></p><br>
-### 3. Installation et configuration de SSH sur Debian 12
 <br><p align="center"><img src="https://github.com/user-attachments/assets/5730332d-6c8d-460f-89cf-0df524ba72a7" alt=""></p><br>
-### Assure-toi que le service SSH est installé et activé sur les machines Ubuntu distantes.
+### 3. Installation et configuration de SSH sur Debian 12
+
+#### Assure-toi que le service SSH est installé et activé sur les machines Ubuntu distantes.
 
 <br><p align="center"><img src="https://github.com/user-attachments/assets/b1651343-ea8d-47de-88ce-857f3f4b8195)
 
@@ -130,7 +131,7 @@
 ``sudo systemctl start ssh``<br>
 
 
-### Teste l'accès SSH depuis ta machine Debian vers chaque machine Ubuntu.
+#### Teste l'accès SSH depuis ta machine Debian vers chaque machine Ubuntu.
 
 #### Commandes utilisées
 ``ssh user@machine_ip``<br>
@@ -138,9 +139,8 @@
 ## 2. Authentification par clé SSH :
 
 Pour éviter de taper le mot de passe à chaque fois, configure une authentification par clé SSH :
-
-ssh-keygen -t rsa<br>
-ssh-copy-id user@machine_ip
+``ssh-keygen -t rsa``<br>
+``ssh-copy-id user@machine_ip``
 
 <br><p align="center"><img src="https://github.com/user-attachments/assets/6be3dd73-d292-4d88-a93e-73fbbd758e02" alt=""></p><br>
 
