@@ -1,3 +1,7 @@
+# 🔔 INSTALL-LINUX.md
+# ⏩ TSSR-2411-P2-G3 
+# ⏩ The scripting project
+
 # Sommaire<br>
 1. [Prérequis de configuration](#1-Prérequis-de-configuration)
 2. [Installation de base des systèmes et de leur environnement](#2-installation-de-base-des-systèmes-et-de-leur-environnement)
