@@ -12,7 +12,7 @@
       1. [Configuration de Proxmox pour VM Debian](#1-Configuration-de-Proxmox-pour-VM-Debian)
       2. [Installation de Debian 12](#2-Installation-de-Debian-12)
       3. [Installation et configuration de SSH sur Debian 12](#3-Installation-et-configuration-de-SSH-sur-Debian-12)
-      4. [Installation de Dialog](#1-Installation-de-Dialog)
+      4. [Installation de Dialog](#4-Installation-de-Dialog)
 3. [Pour aller plus loin dans la configuration](#3-Pour-aller-plus-loin-dans-la-configuration)
 4. [FAQ](#4-FAQ)
 
