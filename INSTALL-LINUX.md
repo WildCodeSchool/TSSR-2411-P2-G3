@@ -150,7 +150,9 @@ Après suppression / réinstallation de la VM CLININ01 et réinstallation de SSH
 <br><p align="center"><img src="https://github.com/user-attachments/assets/fcee238b-015b-421c-b1ec-170a62a77c75" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/add6e166-2308-497a-8766-1c4cacccbdf5" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/a6c9e615-2b6f-4931-ae3c-2134209ef150" alt=""></p><br>
-<br><p align="center"><img src="https://github.com/user-attachments/assets/4c0a3394-a288-4da7-b329-e9ff2ac017e4" alt=""></p><br>
+<br><p align="center"><img src="https://github.com/user-attachments/assets/dfa5b9ad-6a6a-45b0-b63d-6743a6af6f25" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/182516bb-b4a9-4feb-81f6-18f1d2b58eac" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/60456c59-62ad-4240-9a07-5b9a45bc3ec9" alt=""></p><br>
 
+![install-debian-12-150](https://github.com/user-attachments/assets/dfa5b9ad-6a6a-45b0-b63d-6743a6af6f25)
+https://github.com/user-attachments/assets/dfa5b9ad-6a6a-45b0-b63d-6743a6af6f25
