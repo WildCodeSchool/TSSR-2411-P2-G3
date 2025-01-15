@@ -1,10 +1,10 @@
 # Sommaire<br>
 1. [Prérequis de configuration](#1-Prérequis-de-configuration)
 2. [Installation de base des systèmes et de leur environnement](#2-installation-de-base-des-systèmes-et-de-leur-environnement)
-   1. [Machine client sous Ubuntu 24.04](#1-Machine-client-sous-Ubuntu-24.04)
+   1. [Machine client sous Ubuntu 24-04](#1-Machine-client-sous-Ubuntu-24-04)
       1. [Configuration de Proxmox](#1-Configuration-de-Proxmox)
-      2. [Installation de la VM Ubuntu 24.04](#2-Installation-de-la-VM-Ubuntu-24.04)
-      3. [Configuration de la VM Ubuntu 24.04](#3-Configuration-de-la-VM-Ubuntu-24.04)
+      2. [Installation de la VM Ubuntu 24-04](#2-Installation-de-la-VM-Ubuntu-24-04)
+      3. [Configuration de la VM Ubuntu 24-04](#3-Configuration-de-la-VM-Ubuntu-24-04)
       2. [Installation de Windows 10](#2-installation-de-windows-10)
       3. [Renommage du PC](#3-renommage-du-pc-windows-10)
       4. [Activation et configuration du bureau à distance](#4-activation-et-configuration-du-bureau-à-distance-windows-10)
@@ -58,7 +58,7 @@
   * Adresse IP fixe : 172.16.10.10/24
 
 # 2. Installation de base des systèmes et de leur environnement
-## 1. Machine client sous Ubuntu 24.04
+## 1. Machine client sous Ubuntu 24-04
 ### 1. Configuration de Proxmox
 <br><p align="center"><img src="https://github.com/user-attachments/assets/bb5ad227-2577-4a39-ab3e-a8080ac3a552" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18b2d7d9-2f6c-4baf-bd8d-38e6094ec552" alt=""></p><br>
@@ -68,7 +68,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7fa5abdf-fe27-4cdf-9187-a98e7a3b1eed" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/04665c78-67af-4f3b-82f1-962f4c4bbe97" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3cd11dc0-8562-4d64-a9a3-c0480ed6c6a4" alt=""></p><br>
-### 2. Installation de la VM Ubuntu 24.04
+### 2. Installation de la VM Ubuntu 24-04
 <br><p align="center"><img src="https://github.com/user-attachments/assets/e3946b1b-c706-48a3-95e0-7cfc61f910ad" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/4445d955-dca0-4497-b60f-f38a9998430e" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/8ec0acc7-0264-4e26-b563-f4d0f18e88e1" alt=""></p><br>
@@ -86,7 +86,7 @@
 <br><p align="center"><img src="https://github.com/user-attachments/assets/18f3e440-aec4-47c4-b6bb-7b3923a818cd" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7462e405-9103-4d7d-b2b6-de6b67e0dad2" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3fa1d4a5-43f5-4763-8e06-83068fc970eb" alt=""></p><br>
-### 3. Paramétrage de la VM Ubuntu 24.04
+### 3. Paramétrage de la VM Ubuntu 24-04
 <br><p align="center"><img src="https://github.com/user-attachments/assets/3e446525-8f2d-41b6-a152-dbeb5035d862" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/08a09938-ce93-4f1e-ab03-2f741e48d6a6" alt=""></p><br>
 <br><p align="center"><img src="https://github.com/user-attachments/assets/d653e141-74c7-4279-b53f-8fe25d8559f0" alt=""></p><br>
