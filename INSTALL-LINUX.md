@@ -5,26 +5,11 @@
       1. [Configuration de Proxmox](#1-Configuration-de-Proxmox)
       2. [Installation de la VM Ubuntu 24-04](#2-Installation-de-la-VM-Ubuntu-24-04)
       3. [Configuration de Ubuntu 24-04](#3-Configuration-de-Ubuntu-24-04)
-      2. [Installation de Windows 10](#2-installation-de-windows-10)
-      3. [Renommage du PC](#3-renommage-du-pc-windows-10)
-      4. [Activation et configuration du bureau à distance](#4-activation-et-configuration-du-bureau-à-distance-windows-10)
-      5. [Téléchargement et installation de TightVNC](#5-installation-de-tightvnc-windows-10)
-      6. [Mises à jour Windows Update](#6-mises-à-jour-windows-update-windows-10)
-      7. [Configuration d'une IP fixe](#7-configuration-dune-ip-fixe-windows-10)
-   3. [Machine administrateur sous Windows Server 2022](#2-machine-administrateur-sous-windows-server-2022)
-      1. [Configuration de la VM](#1-configuration-de-la-vm-windows-server-2022)
-      2. [Installation de Windows Server 2022](#2-installation-de-windows-server-2022)
-      3. [Renommage du PC](#3-renommage-du-pc-windows-server-2022)
-      4. [Ajout du compte Administrator](#4-ajout-du-compte-administrator)
-      5. [Activation et configuration du bureau à distance](#5-activation-et-configuration-du-bureau-à-distance-windows-server-2022)
-      6. [Téléchargement et installation de TightVNC](#6-installation-de-tightvnc-windows-server-2022)
-      7. [Mises à jour Windows Update](#7-mises-à-jour-windows-update-windows-server-2022)
-      8. [Configuration d'une IP fixe](#8-configuration-dune-ip-fixe-windows-server-2022)
-3. [Pour aller plus loin dans la configuration](#3-pour-aller-plus-loin-dans-la-configuration)
-   1. [Sécuriser la connexion via le bureau à distance](#1-sécuriser-la-connexion-via-le-bureau-à-distance)
-   2. [Sécuriser la connexion via TightVNC](#2-sécuriser-la-connexion-via-tightvnc)
-   3. [Faciliter la connexion via un script PowerShell](#3-faciliter-la-connexion-via-un-script-powershell)
-4. [FAQ](#4-FAQ)<br><br>
+   1. [Machine administrateur sous Debian 12](#1-Machine-administrateur-sous-Debian-12)
+      1. [Configuration de Proxmox](#1-Configuration-de-Proxmox)
+      2. [Installation de la VM Debian 12](#2-Installation-de-la-VM-Debian-12)
+      3. [Configuration de Debian 12](#3-Configuration-de-Debian-12)
+
 
 
 # 1. Prérequis de configuration
