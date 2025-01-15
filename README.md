@@ -13,7 +13,7 @@
    4. [Serveur Debian 12](#4-Serveur-Debian-12)
 3. [Membres du groupe](#3-Membres-du-groupe)
 4. [Réalisation des tâches](#4-Réalisation-des-tâches)
-5. [Difficultés / Solutions / Améliorations](#Difficultés-/-Solutions-/-Améliorations)
+5. [Difficultés / Solutions / Améliorations](#5-Difficultés-/-Solutions-/-Améliorations)
    1. [Difficultés rencontrées : problèmes techniques rencontrés](#1-Difficultés-rencontrées-:-problèmes-techniques-rencontrés)
    2. [Solutions trouvées : Solutions et alternatives trouvées](#2-Solutions-trouvées-:-Solutions-et-alternatives-trouvées)
    3. [Améliorations possibles : suggestions d’améliorations futures](#3-Améliorations-possibles-:-suggestions-d’améliorations-futures)
