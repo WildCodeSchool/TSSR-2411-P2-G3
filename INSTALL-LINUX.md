@@ -3,11 +3,11 @@
 2. [Installation de base des systèmes et de leur environnement](#2-installation-de-base-des-systèmes-et-de-leur-environnement)
    1. [Machine client sous Ubuntu 24-04](#1-Machine-client-sous-Ubuntu-24-04)
       1. [Configuration de Proxmox pour VM Ubuntu](#1-Configuration-de-Proxmox-pour-VM-Ubuntu)
-      2. [Installation de Ubuntu 24-04](#2-Installation-de-la-VM-Ubuntu-24-04)
+      2. [Installation de Ubuntu 24-04](#2-Installation-de-Ubuntu-24-04)
       3. [Configuration de Ubuntu 24-04](#3-Configuration-de-Ubuntu-24-04)
    1. [Machine administrateur sous Debian 12](#1-Machine-administrateur-sous-Debian-12)
       1. [Configuration de Proxmox pour VM Debian](#1-Configuration-de-Proxmox-pour-VM-Debian)
-      2. [Installation de Debian 12](#2-Installation-de-la-VM-Debian-12)
+      2. [Installation de Debian 12](#2-Installation-de-Debian-12)
       3. [Configuration de Debian 12](#3-Configuration-de-Debian-12)
 
 
