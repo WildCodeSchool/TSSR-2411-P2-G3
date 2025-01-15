@@ -20,7 +20,7 @@
    2. [Solutions trouvées : Solutions et alternatives trouvées](#2-Sécurisation-de-TightVNC)
    3. [Améliorations possibles : suggestions d’améliorations futures](#3-Sécurisation-de-TightVNC)
 
-## 🔷 1. Présentation et objectifs
+## 1. Présentation et objectifs
 Le but de ce projet est de produire un script Bash ou Powershell, qui permette de se connecter sur un ordinateur distant et d’effectuer un ensemble de tâches via un menu accessible sur le shell.
 
 ### 🔹 1. Objectif principal
