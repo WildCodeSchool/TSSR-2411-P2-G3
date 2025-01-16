@@ -301,7 +301,7 @@ Si la conexion est réussie on prend la main à distance sur le compte wilder du
 - Enfin, redémarrer une nouvelle fois le service open SSH SSH Server :
 <br><p align="center"><img src="https://github.com/user-attachments/assets/52ad468f-537c-4e71-bcb2-a0f6e1ca5d60" alt=""></p>
 
-Une fois ces étapes effectuées, la connexion via SSH sans mot de passe a pu être établie.
+### :trophy: Une fois ces étapes effectuées, la connexion via SSH sans mot de passe a pu être établie.
 
 ## 8. Installation de FZF
 Nous avons fait l'installation de FZF via Scoop, voici les commandes à taper dans powershell :<br>
