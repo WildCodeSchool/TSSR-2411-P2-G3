@@ -16,7 +16,8 @@
       4. [Mises à jour Windows Update](#4-mises-à-jour-windows-update-windows-server-2022)
       5. [Configuration d'une IP fixe](#5-configuration-dune-ip-fixe-windows-server-2022)
       6. [Installation et configuration de SSH](#6-installation-et-configuration-de-SSH)
-      7. [Installation de FZF](#7-Installation-de-FZF)
+      7. [Aller plus loin en se connectant en SSH sans mot de passe](#7-Aller-plus-loin-en-se-connectant-en-SSH-sans-mot-de-passe)
+      8. [Installation de FZF](#8-Installation-de-FZF)
 3. [Pour aller plus loin dans la configuration](#3-Pour-aller-plus-loin-dans-la-configuration)
 4. [FAQ](#4-FAQ)
 
@@ -273,7 +274,36 @@ Si le ping est OK, on tente de se connecter en SSH avec la commande suivante :<b
 ssh wilder@172.16.10.20
 
 Si la conexion est réussie on prend la main à distance sur le compte wilder du client Windows 10.
-## 7. Installation de FZF
+
+## 7. Aller plus loin en se connectant en SSH sans mot de passe
+
+![ssh-sans-mdp-commande pour envoyer le fichier contenant la clé ssh depuis le serveur vers le pc Windows 10](https://github.com/user-attachments/assets/484932d4-e56d-442a-9819-13f7eeb74ea9)
+
+![ssh-sans-mdp-Sur le pc windows 10, ouvrir le fichier id-rsa-pub et copier la clé](https://github.com/user-attachments/assets/b66d657e-a9a8-4ff6-a92d-195b6a848e1c)
+
+![ssh-sans-mdp-Puis lancer le bloc note en prenant soin de l'ouvrir en tant qu'admin](https://github.com/user-attachments/assets/308280da-49ec-49cf-b2fa-baa751da5862)
+
+![ssh-sans-mdp-penser à cocher tous les fichiers puis repérer le fichier authorized_keys - s'il n'y en a pas en créer un nommé administratos_authorized_keys](https://github.com/user-attachments/assets/ad2471fe-8ba1-47c9-8dc6-c0a35e0055f7)
+
+![ssh-sans-mdp-très important s'il y a déjà une fichier authorized_keys, le renommer administrators_authorized_keys](https://github.com/user-attachments/assets/04702de9-8cb5-430b-bb21-c283bfe56f66)
+
+![ssh-sans-mdp-ouvrir le fichier et copier la clé ssh](https://github.com/user-attachments/assets/7ea55dba-e263-4010-99a6-15dfd7288475)
+
+![ssh-sans-mdp-sur le PC windows 10, taper la commande suivante dans powershell](https://github.com/user-attachments/assets/58e67c69-ea33-4244-a49d-67e3706d7fc6)
+
+![ssh-sans-mdp-sur le PC windows 10, ouvir le fichier ssh_config en qu'en qu'admin et s'arrurer que PubkeyAuthentication est bien sur yes et que ce soit bien decommenté](https://github.com/user-attachments/assets/6eb0bee8-e351-42d7-8796-52f2a7e43e0a)
+
+![ssh-sans-mdp-sur le PC windows 10, ouvrir les services en tant qu'admin](https://github.com/user-attachments/assets/653da342-0d29-4901-aec3-a52e970e8313)
+
+![ssh-sans-mdp-sur le PC windows 10, et redemarrer le service open SSH SSH Server](https://github.com/user-attachments/assets/2e4f3e4a-1ccc-47ef-af86-ca49fd441e01)
+
+![ssh-sans-mdp-sur le PC windows 10, retourner dans le fichier sshd_config (toujours en tant qu'admin) et s'assurer que PasswordAuthentication soit décommenté et marqué no](https://github.com/user-attachments/assets/4b88af32-47c5-40b1-894e-f08b30c2308f)
+
+![ssh-sans-mdp-sur le PC windows 10, relancer une seconde fois le service OpenSSH SSH Server](https://github.com/user-attachments/assets/52ad468f-537c-4e71-bcb2-a0f6e1ca5d60)
+
+
+
+## 8. Installation de FZF
 Nous avons fait l'installation de FZF via Scoop, voici les commandes à taper dans powershell :<br>
 ``iwr -useb get.scoop.sh | iex``<br>
 ``scoop --version``  (vérifie que scoop est bien installé)<br>
