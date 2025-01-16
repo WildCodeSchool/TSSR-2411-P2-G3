@@ -282,11 +282,11 @@ Si la conexion est réussie on prend la main à distance sur le compte wilder du
 <br><p align="center"><img src="https://github.com/user-attachments/assets/b66d657e-a9a8-4ff6-a92d-195b6a848e1c" alt=""></p><br>
 - Lancer le bloc note en prenant soin de l'ouvrir en mode Administrateur :
 <br><p align="center"><img src="https://github.com/user-attachments/assets/308280da-49ec-49cf-b2fa-baa751da5862" alt=""></p><br>
-- Sélectionner "Tous les fichiers", et repérer s'il y a le fichier ``authorized_keys``. S'il n'y a pas ce fichier, en créer un et le nommer ``administratos_authorized_keys`` :
+- Sélectionner "Tous les fichiers", et repérer s'il y a le fichier ``authorized_keys``. S'il n'y a pas ce fichier, en créer un et le nommer ``administrators_authorized_keys`` :
 <br><p align="center"><img src="https://github.com/user-attachments/assets/ad2471fe-8ba1-47c9-8dc6-c0a35e0055f7" alt=""></p><br>
-- Très important, s'il y a déjà le fichier ``authorized_keys``, le renommer en ``administratos_authorized_keys`` :
+- Très important, s'il y a déjà le fichier ``authorized_keys``, le renommer en ``administrators_authorized_keys`` :
 <br><p align="center"><img src="https://github.com/user-attachments/assets/04702de9-8cb5-430b-bb21-c283bfe56f66" alt=""></p><br>
-- Ouvrir le fichier ``administratos_authorized_keys`` et coller la clé SSH qu'on a copiée dans le fichier id_rsa.pub :
+- Ouvrir le fichier ``administrators_authorized_keys`` et coller la clé SSH qu'on a copiée dans le fichier id_rsa.pub :
 <br><p align="center"><img src="https://github.com/user-attachments/assets/7ea55dba-e263-4010-99a6-15dfd7288475" alt=""></p><br>
 - Sur le PC Windows 10, taper la commande suivante dans Powershell : ``icacls administrators_authorized_keys /inheritabce:r /grant "Administrators:F" /grant "SYSTEM:F"``
 <br><p align="center"><img src="https://github.com/user-attachments/assets/58e67c69-ea33-4244-a49d-67e3706d7fc6" alt=""></p><br>
