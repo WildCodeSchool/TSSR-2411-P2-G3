@@ -70,12 +70,7 @@ function Gerer-Utilisateurs {
                 # Utiliser fzf pour selectionner un utilisateur
                 $utilisateurSelectionne = $listeUtilisateurs | fzf --prompt "Selectionnez un utilisateur : " --height 40% --reverse
 
-                if ($utilisateurSelectionne) {
-                    Write-Host "Utilisateur selectionne : $utilisateurSelectionne"
-                    Journaliser-Evenement "Utilisateur selectionne : $utilisateurSelectionne sur $ordinateur"
-                } else {
-                    Write-Host "Aucun utilisateur selectionne"
-                }
+               
             }
             2 {
                 $nomUtilisateur = Read-Host "Entrez le nom de l'utilisateur"
