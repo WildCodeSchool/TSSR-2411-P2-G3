@@ -103,7 +103,7 @@ Les scripts Bash et Powershell contiennent chacun 19 actions, toutes exécutées
 
 1) Notre première difficulté a été de prendre du recul et de réfléchir aux différentes fonctionnalités que nous souhaitions implémenter dans le script. La première semaine nous avons démarrer le script Bash avec comme objectif de pouvoir se connecter sur la machine distante et de faire quelques actions dessus. Mais à un moment donné nous avons réalisé qu'il était important de réaliser le squelette du script pour bien ordonner nos idées et savoir de quoi seraient composés les différents menu.
 Cette étape que nous avons réalisé en fin de semaine 1 a véritablement posé les bases de tout ce que nous avons fait ensuite.
-2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell (essais toujours en cours sur Powershell). Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures.
+2) Une autre difficulté a été de se connecter en SSH sans mot de passe, que ce soit avec Bash ou Powershell. Nous avons fait beaucoup de manipulations, principalement de la modification de fichiers, et cela nous a pris de nombreuses heures. Les solutions que nous avons trouvées pour se connecter en SSH sans mot de passe sont expliquées dans les documents INSTALL-WINDOWS.md et INSTALL-LINUX.md.
 3) Difficulté également pour intégrer l'autocomplétion : on a choisi de tester cette fonction sur la fonction collecte_utilisateurs_infos() avec la commande lastlog. Il y a eu plusieurs versions
 sur la première version on avait une erreur, il n'affichait rien quel que soit l'utilisateur sélectionné avec un message "lastlog : Utilisateur ou gamme inconnu : utilisateur".<br>
 On a modifié le script, après cette modif lorsque le script trouvait 1 seul utilisateur avec la chaine de caractères tapée -> il affichait directement les infos de celui-ci, sans passer par une liste. Ca fonctionnait, mais le souci était que s'il y avait plusieurs utilisateurs et qu'il fallait en choisir un dans la liste, dans ce cas il affichait systémtatiquement "never logged in".<br>
@@ -125,6 +125,4 @@ Commandes qui ne fonctionne pas car :
 1) Finaliser toutes les commandes sur Powershell
 2) Implémenter de nouvelles commandes pour Bash et Powershell
 3) Renforcer les tests de variables de chaque fonction pour prendre en compte tous les cas de figure
-4) Réussir à se connecter sans mot de passe en ssh sur Powershell
-5) Améliorer la navigation dans le menu avec un fil d'Ariane comme sur un site web
-6) Se connecter à une machine équipée d'un autre OS (nous n'avons pas eu le temps de le mettre en place)
+4) Se connecter à une machine équipée d'un autre OS (nous n'avons pas eu le temps de le mettre en place)
