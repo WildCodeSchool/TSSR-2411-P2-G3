@@ -128,7 +128,7 @@
 
 ### Assure-toi que le service SSH est installé et activé sur les machines Ubuntu distantes.
 
-<br><p align="center"><img src="https://github.com/user-attachments/assets/b1651343-ea8d-47de-88ce-857f3f4b8195)
+<br><p align="center"><img src="https://github.com/user-attachments/assets/b1651343-ea8d-47de-88ce-857f3f4b8195" alt=""></p><br>
 
 ### Commandes utilisées
 ``sudo apt update && sudo apt install openssh-server``<br>
